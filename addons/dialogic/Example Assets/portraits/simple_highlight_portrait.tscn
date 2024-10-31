@@ -1,9 +1,3 @@
-[gd_scene load_steps=2 format=3 uid="uid://br18lgpga2y2v"]
-
-[ext_resource type="Script" path="res://addons/dialogic/Example Assets/portraits/simple_highlight_portrait.gd" id="1_ceqva"]
-
-[node name="DefaultPortrait" type="Node2D"]
-script = ExtResource("1_ceqva")
-
-[node name="Portrait" type="Sprite2D" parent="."]
-centered = false
+version https://git-lfs.github.com/spec/v1
+oid sha256:29ebe9e0b3cc17c8bb48440a6f450ac6fb0920ee799fc2c5283078cae0c50010
+size 330
