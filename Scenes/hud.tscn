@@ -1,0 +1,85 @@
+[gd_scene load_steps=10 format=3 uid="uid://cvja5apcjyrye"]
+
+[ext_resource type="Script" path="res://Scripts/hud.gd" id="1_16tji"]
+[ext_resource type="Texture2D" uid="uid://dgue2myoaetjk" path="res://GUI/ProgressBar_05/BarV5_Bar_Vert.png" id="2_46h8b"]
+[ext_resource type="Texture2D" uid="uid://lkesogxo6yhy" path="res://GUI/ProgressBar_05/BarV5_ProgressBar_Vert.png" id="3_lta1n"]
+[ext_resource type="Texture2D" uid="uid://basehitfdic46" path="res://GUI/ProgressBar_10/BarV8_Bar.png" id="4_d7kv1"]
+[ext_resource type="Texture2D" uid="uid://ctcxedkhg8vxs" path="res://GUI/ProgressBar_10/BarV8_ProgressBar.png" id="5_8smur"]
+[ext_resource type="Texture2D" uid="uid://rkfnpi02g66i" path="res://Icons/Cannon Icon.png" id="6_kh1yb"]
+[ext_resource type="Texture2D" uid="uid://ba6ev4w67s06u" path="res://Icons/Weapon Background.png" id="7_kchdv"]
+[ext_resource type="Texture2D" uid="uid://cqvyun1leunxa" path="res://Icons/sword_regular.png" id="8_f2lx7"]
+[ext_resource type="Texture2D" uid="uid://plsjwy8igsn1" path="res://Icons/Electricity Imbuement.png" id="9_3grsd"]
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 10.0
+offset_top = 100.0
+offset_right = 40.0
+offset_bottom = 400.0
+script = ExtResource("1_16tji")
+
+[node name="HealthBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_right = 21.0
+offset_bottom = 272.0
+step = 0.1
+value = 100.0
+fill_mode = 3
+texture_under = ExtResource("2_46h8b")
+texture_progress = ExtResource("3_lta1n")
+texture_progress_offset = Vector2(0, 0.5)
+
+[node name="HealthPotionCounter" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 522.0
+offset_right = 21.0
+offset_bottom = 545.0
+
+[node name="HealthPotionIcon" type="Sprite2D" parent="."]
+position = Vector2(10, 290)
+scale = Vector2(2, 2)
+
+[node name="CanShootProgress" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 493.0
+offset_right = 79.0
+offset_bottom = 533.0
+scale = Vector2(3.15565, 0.366408)
+max_value = 5.0
+step = 0.01
+value = 5.0
+nine_patch_stretch = true
+texture_under = ExtResource("4_d7kv1")
+texture_progress = ExtResource("5_8smur")
+
+[node name="CannonIcon" type="Sprite2D" parent="."]
+position = Vector2(13, 500)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6_kh1yb")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_top = 423.0
+offset_right = 40.0
+offset_bottom = 463.0
+
+[node name="Sprite2D_Background" type="Sprite2D" parent="Control"]
+position = Vector2(0, -11)
+texture = ExtResource("7_kchdv")
+centered = false
+
+[node name="Sprite2D_Weapon" type="Sprite2D" parent="Control/Sprite2D_Background"]
+position = Vector2(8, 8)
+scale = Vector2(3, 3)
+texture = ExtResource("8_f2lx7")
+centered = false
+
+[node name="Sprite2D_Imbuement" type="Sprite2D" parent="Control"]
+visible = false
+position = Vector2(41, -8)
+scale = Vector2(0.025, 0.025)
+texture = ExtResource("9_3grsd")
+centered = false

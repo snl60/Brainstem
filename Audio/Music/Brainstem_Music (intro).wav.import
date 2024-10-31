@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://boc8ylu783c1o"
+path="res://.godot/imported/Brainstem_Music (intro).wav-b36307c875e5e14aaad2b816701b08ca.sample"
+
+[deps]
+
+source_file="res://Audio/Music/Brainstem_Music (intro).wav"
+dest_files=["res://.godot/imported/Brainstem_Music (intro).wav-b36307c875e5e14aaad2b816701b08ca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

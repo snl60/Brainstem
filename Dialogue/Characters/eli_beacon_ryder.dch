@@ -1,0 +1,40 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {
+"Mood 1": {
+"mode": 0,
+"name": "Mood 1",
+"pitch_base": 1.0,
+"pitch_variance": 0.0,
+"skip_characters": 0.0,
+"sound_path": "res://addons/dialogic/Example Assets/sound-effects/typing3.wav",
+"volume_base": 0.0,
+"volume_variance": 0.0
+}
+},
+"style": "speaker_textbox_style"
+},
+"default_portrait": "default",
+"description": "Hero",
+"display_name": "Eli \"Beacon\" Ryder",
+"mirror": false,
+"nicknames": ["Beacon"],
+"offset": Vector2(0, 0),
+"portraits": {
+"default": {
+"export_overrides": {
+"image": "\"res://Dialogue/Portraits/Eli Beacon Ryder.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 1.0
+}

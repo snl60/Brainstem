@@ -1,0 +1,40 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://dfkwy1cmnf5e8"]
+
+[ext_resource type="FontFile" uid="uid://dxrawmc2snef4" path="res://Themes/Fonts/cyborg_punk/Cyborg Punk.ttf" id="1_cq485"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3bobb"]
+bg_color = Color(0.0936694, 0.0936694, 0.0936694, 0.686275)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5qkin"]
+bg_color = Color(0.157274, 0.157274, 0.157274, 0.784314)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qr5u3"]
+bg_color = Color(0.0784314, 0.0784314, 0.0784314, 0.686275)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yxlnu"]
+bg_color = Color(0.0784314, 0.109804, 0.137255, 1)
+
+[resource]
+Button/font_sizes/font_size = 14
+Button/fonts/font = ExtResource("1_cq485")
+Button/styles/focus = SubResource("StyleBoxFlat_3bobb")
+Button/styles/hover = SubResource("StyleBoxFlat_5qkin")
+Button/styles/normal = SubResource("StyleBoxFlat_qr5u3")
+Button/styles/pressed = null
+Panel/styles/panel = SubResource("StyleBoxFlat_yxlnu")

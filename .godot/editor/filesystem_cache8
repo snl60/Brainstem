@@ -1,0 +1,1073 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1730338462
+icon.svg::CompressedTexture2D::9178660525394316350::1718181191::1718181196::1::::<><>::
+save.json::JSON::-1::1719961255::0::1::::<><>::
+::res://addons/::1730338412
+::res://addons/dialogic/::1730338412
+plugin.cfg::TextFile::-1::1722822994::0::1::::<><>::
+plugin.gd::GDScript::-1::1722822994::0::1::::<>EditorPlugin<>::
+::res://addons/dialogic/Core/::1730338411
+DialogicGameHandler.gd::GDScript::-1::1722822994::0::1::::DialogicGameHandler<>Node<>::
+DialogicResourceUtil.gd::GDScript::-1::1722822994::0::1::::DialogicResourceUtil<>RefCounted<>::
+DialogicUtil.gd::GDScript::-1::1722822994::0::1::::DialogicUtil<>RefCounted<>::
+Dialogic_Subsystem.gd::GDScript::-1::1722822994::0::1::::DialogicSubsystem<>Node<>::
+index_class.gd::GDScript::-1::1722822994::0::1::::DialogicIndexer<>RefCounted<>::
+::res://addons/dialogic/Editor/::1730338411
+dialogic_editor.gd::GDScript::-1::1722822994::0::1::::DialogicEditor<>Control<>::
+editors_manager.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+editor_main.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+editor_main.tscn::PackedScene::7505484045520919990::1722822994::0::1::::<><>::res://addons/dialogic/Editor/editor_main.gd<>res://addons/dialogic/Editor/editors_manager.gd<>uid://dybg3l5pwetne::::res://addons/dialogic/Editor/Images/plugin-icon.svg<>uid://cwe3r2tbh2og1::::res://addons/dialogic/Editor/Common/side_bar.tscn<>res://addons/dialogic/Editor/Common/toolbar.gd<>uid://bbea0efx0ybu7::::res://addons/dialogic/Editor/Images/Resources/character.svg<>uid://b5xwnxdb7064n::::res://addons/dialogic/Modules/Glossary/icon.svg<>uid://1mccycya6eua::::res://addons/dialogic/Modules/StyleEditor/styles_icon.svg<>uid://ckilxvwc34s84::::res://addons/dialogic/Modules/Variable/variable.svg<>uid://c7lmt5cp7bxcm::::res://addons/dialogic/Editor/Common/reference_manager.tscn<>res://addons/dialogic/Editor/Common/reference_manager_window.gd<>res://addons/dialogic/Editor/TimelineEditor/TextEditor/CodeCompletionHelper.gd<>res://addons/dialogic/Editor/Common/update_manager.gd<>uid://vv3m5m68fwg7::::res://addons/dialogic/Editor/Common/update_install_window.tscn
+::res://addons/dialogic/Editor/CharacterEditor/::1730338411
+character_editor.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+character_editor.tscn::PackedScene::7969110390860207197::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/character_editor.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>res://addons/dialogic/Editor/CharacterEditor/character_editor_portrait_tree.gd<>uid://babwe22dqjta::::res://addons/dialogic/Editor/Images/Pieces/add-folder.svg
+character_editor_main_settings_section.gd::GDScript::-1::1722822994::0::1::::DialogicCharacterEditorMainSection<>Control<>::
+character_editor_portrait_settings_section.gd::GDScript::-1::1722822994::0::1::::DialogicCharacterEditorPortraitSection<>Control<>::
+character_editor_portrait_tree.gd::GDScript::-1::1722822994::0::1::::<>Tree<>::
+char_edit_p_section_exports.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorPortraitSection<>::
+char_edit_p_section_exports.tscn::PackedScene::5129064973078053071::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/char_edit_p_section_exports.gd
+char_edit_p_section_layout.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorPortraitSection<>::
+char_edit_p_section_layout.tscn::PackedScene::5986998263243086127::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/char_edit_p_section_layout.gd<>uid://dtimnsj014cu::::res://addons/dialogic/Editor/Events/Fields/field_vector2.tscn
+char_edit_p_section_main.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorPortraitSection<>::
+char_edit_p_section_main.tscn::PackedScene::7825752509130325151::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.gd<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn
+char_edit_p_section_main_exports.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorPortraitSection<>::
+char_edit_p_section_main_exports.tscn::PackedScene::2449733870709506901::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main_exports.gd
+char_edit_section_general.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorMainSection<>::
+char_edit_section_general.tscn::PackedScene::3319660202558956482::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/char_edit_section_general.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn
+char_edit_section_portraits.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorMainSection<>::
+char_edit_section_portraits.tscn::PackedScene::5650568787656272270::1722822994::0::1::::<><>::res://addons/dialogic/Editor/CharacterEditor/char_edit_section_portraits.gd<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>uid://dtimnsj014cu::::res://addons/dialogic/Editor/Events/Fields/field_vector2.tscn
+::res://addons/dialogic/Editor/Common/::1730338411
+broken_reference_manager.gd::GDScript::-1::1722822994::0::1::::<>VSplitContainer<>::
+DCSS.gd::GDScript::-1::1722822994::0::1::::DCSS<>RefCounted<>::
+hint_tooltip_icon.gd::GDScript::-1::1722822994::0::1::::<>TextureRect<>::
+hint_tooltip_icon.tscn::PackedScene::7261057703625835420::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Common/hint_tooltip_icon.gd
+ReferenceManager_AddReplacementPanel.gd::GDScript::-1::1722822994::0::1::::<>PanelContainer<>::
+reference_manager.gd::GDScript::-1::1722822994::0::1::::<>PanelContainer<>::
+reference_manager.tscn::PackedScene::7042356632609759764::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Common/reference_manager.gd<>res://addons/dialogic/Editor/Common/broken_reference_manager.gd<>res://addons/dialogic/Editor/Common/ReferenceManager_AddReplacementPanel.gd<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>res://addons/dialogic/Editor/Common/unique_identifiers_manager.gd
+reference_manager_window.gd::GDScript::-1::1722822994::0::1::::<>Window<>::
+sidebar.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+side_bar.tscn::PackedScene::6326985320270603078::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Common/sidebar.gd
+TitleBgStylebox.tres::StyleBoxFlat::8039246276644964897::1722822994::0::1::::<><>::
+toolbar.gd::GDScript::-1::1722822994::0::1::::<>HBoxContainer<>::
+unique_identifiers_manager.gd::GDScript::-1::1722822994::0::1::::<>PanelContainer<>::
+update_install_window.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+update_install_window.tscn::PackedScene::1519040750249231836::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Common/update_install_window.gd<>uid://dybg3l5pwetne::::res://addons/dialogic/Editor/Images/plugin-icon.svg
+update_manager.gd::GDScript::-1::1722822994::0::1::::<>Node<>::
+::res://addons/dialogic/Editor/Events/::1730338411
+BranchEnd.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+BranchEnd.tscn::PackedScene::7495400415936998277::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/BranchEnd.gd
+event_field.gd::GDScript::-1::1722822994::0::1::::DialogicVisualEditorField<>Control<>::
+::res://addons/dialogic/Editor/Events/EventBlock/::1730338411
+event_block.gd::GDScript::-1::1722822994::0::1::::<>MarginContainer<>::
+event_block.tscn::PackedScene::3931989193750211311::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/EventBlock/event_block.gd<>uid://cl75ikyq2is7c::::res://addons/dialogic/Editor/Events/styles/unselected_stylebox.tres<>uid://dybg3l5pwetne::::res://addons/dialogic/Editor/Images/plugin-icon.svg
+event_right_click_menu.gd::GDScript::-1::1722822994::0::1::::<>PopupMenu<>::
+::res://addons/dialogic/Editor/Events/Fields/::1730338411
+array_part.gd::GDScript::-1::1722822994::0::1::::<>PanelContainer<>::
+array_part.tscn::PackedScene::5324625481862814922::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/array_part.gd<>uid://d3g4i4dshtdpu::::res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres<>uid://d3bhehatwoio::::res://addons/dialogic/Editor/Events/Fields/field_options_fixed.tscn
+dictionary_part.gd::GDScript::-1::1722822994::0::1::::<>HBoxContainer<>::
+dictionary_part.tscn::PackedScene::4349076255992622630::1722822994::0::1::::<><>::uid://d3g4i4dshtdpu::::res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres<>res://addons/dialogic/Editor/Events/Fields/dictionary_part.gd
+field_array.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_array.tscn::PackedScene::3746295608568352914::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_array.gd
+field_bool_button.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_bool_button.tscn::PackedScene::612007752381670114::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_bool_button.gd
+field_bool_check.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_bool_check.tscn::PackedScene::237174301228939096::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_bool_check.gd
+field_color.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_color.tscn::PackedScene::2045270238621657800::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_color.gd
+field_condition.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_condition.tscn::PackedScene::598538915903446535::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_condition.gd<>uid://d3bhehatwoio::::res://addons/dialogic/Editor/Events/Fields/field_options_fixed.tscn<>uid://c0vkcehgjsjy::::res://addons/dialogic/Editor/Events/Fields/field_text_singleline.tscn<>uid://kdpp3mibml33::::res://addons/dialogic/Editor/Events/Fields/field_number.tscn<>uid://dm5hxmhyyxgq::::res://addons/dialogic/Editor/Events/Fields/field_bool_check.tscn<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn
+field_dictionary.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_dictionary.tscn::PackedScene::7078835892267582044::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_dictionary.gd<>uid://b27yweami3mxi::::res://addons/dialogic/Editor/Events/Fields/dictionary_part.tscn
+field_file.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_file.tscn::PackedScene::2272132710964173664::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_file.gd
+field_number.gd::GDScript::-1::1722822994::0::1::::DialogicVisualEditorFieldNumber<>DialogicVisualEditorField<>::
+field_number.tscn::PackedScene::709020600999335664::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_number.gd<>uid://dh1ycbmw8anqh::::res://addons/dialogic/Editor/Images/Interactable/increment_icon.svg<>uid://brjikovneb63n::::res://addons/dialogic/Editor/Images/Interactable/decrement_icon.svg
+field_options_dynamic.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_options_dynamic.tscn::PackedScene::8257968573620915041::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.gd
+field_options_fixed.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_options_fixed.tscn::PackedScene::268442546511174646::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_options_fixed.gd
+field_text_multiline.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_text_multiline.tscn::PackedScene::8876725777165487193::1722822994::0::1::::<><>::uid://cu8otiwksn8ma::::res://addons/dialogic/Editor/Events/styles/TextBackground.tres<>res://addons/dialogic/Editor/TimelineEditor/TextEditor/syntax_highlighter.gd<>res://addons/dialogic/Editor/Events/Fields/field_text_multiline.gd
+field_text_singleline.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorField<>::
+field_text_singleline.tscn::PackedScene::193280157467062682::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_text_singleline.gd
+field_vector2.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorFieldVector<>::
+field_vector2.tscn::PackedScene::250297584763637452::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_vector2.gd<>uid://kdpp3mibml33::::res://addons/dialogic/Editor/Events/Fields/field_number.tscn
+field_vector3.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorFieldVector<>::
+field_vector3.tscn::PackedScene::5498072204895349086::1722822994::0::1::::<><>::uid://dtimnsj014cu::::res://addons/dialogic/Editor/Events/Fields/field_vector2.tscn<>res://addons/dialogic/Editor/Events/Fields/field_vector3.gd<>uid://kdpp3mibml33::::res://addons/dialogic/Editor/Events/Fields/field_number.tscn
+field_vector4.gd::GDScript::-1::1722822994::0::1::::<>DialogicVisualEditorFieldVector<>::
+field_vector4.tscn::PackedScene::8865564483908772626::1722822994::0::1::::<><>::uid://cklkpfrcvopgw::::res://addons/dialogic/Editor/Events/Fields/field_vector3.tscn<>res://addons/dialogic/Editor/Events/Fields/field_vector4.gd<>uid://kdpp3mibml33::::res://addons/dialogic/Editor/Events/Fields/field_number.tscn
+field_vector_base.gd::GDScript::-1::1722822994::0::1::::DialogicVisualEditorFieldVector<>DialogicVisualEditorField<>::
+::res://addons/dialogic/Editor/Events/styles/::1730338411
+InputFieldsStyle.tres::Theme::9138712547249545382::1722822994::0::1::::<><>::
+ResourceMenuHover.tres::StyleBoxFlat::-1::1722822994::0::1::::<><>::
+ResourceMenuNormal.tres::StyleBoxFlat::-1::1722822994::0::1::::<><>::
+ResourceMenuPanelBackground.tres::StyleBoxFlat::209165682571293718::1722822994::0::1::::<><>::
+SectionPanel.tres::StyleBoxFlat::-1::1722822994::0::1::::<><>::
+selected_styleboxflat.tres::StyleBoxFlat::986196691045147741::1722822994::0::1::::<><>::
+SimpleButtonHover.tres::StyleBoxFlat::-1::1722822994::0::1::::<><>::
+SimpleButtonNormal.tres::StyleBoxFlat::-1::1722822994::0::1::::<><>::
+TextBackground.tres::StyleBoxFlat::6245627128665202020::1722822994::0::1::::<><>::
+unselected_stylebox.tres::StyleBoxEmpty::5612815094740895866::1722822994::0::1::::<><>::
+::res://addons/dialogic/Editor/HomePage/::1730338411
+home_page.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+home_page.tscn::PackedScene::5947401273500014660::1722822994::0::1::::<><>::res://addons/dialogic/Editor/HomePage/home_page.gd<>uid://cvmlp5nxb2rer::::res://addons/dialogic/Editor/HomePage/icon_bg.png<>uid://bt87p6qlso0ya::::res://addons/dialogic/Editor/Images/dialogic-logo.svg
+icon_bg.png::CompressedTexture2D::6272275887492997861::1722822994::1722822994::1::::<><>::
+tips.txt::TextFile::-1::1722822994::0::1::::<><>::
+::res://addons/dialogic/Editor/Images/::1730338411
+dialogic-logo.svg::CompressedTexture2D::3790104562841938052::1722822994::1722822994::1::::<><>::
+plugin-icon.svg::CompressedTexture2D::8846273605144170474::1722822994::1722822994::1::::<><>::
+preview_character.png::CompressedTexture2D::2091084072335210920::1722822994::1722822994::1::::<><>::
+preview_character_speaker.png::CompressedTexture2D::8278972532691820378::1722822994::1722822994::1::::<><>::
+Unknown.png::CompressedTexture2D::2468576728646207283::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Editor/Images/Dropdown/::1730338411
+default.svg::CompressedTexture2D::3699310598590037939::1722822994::1722822994::1::::<><>::
+divide.svg::CompressedTexture2D::6901258230860890461::1722822994::1722822994::1::::<><>::
+join.svg::CompressedTexture2D::4652731984810704514::1722822994::1722822994::1::::<><>::
+leave.svg::CompressedTexture2D::6067796671459232581::1722822994::1722822994::1::::<><>::
+minus.svg::CompressedTexture2D::257488028651337897::1722822994::1722822994::1::::<><>::
+multiply.svg::CompressedTexture2D::7394628180941628304::1722822994::1722822994::1::::<><>::
+plus.svg::CompressedTexture2D::5930089714513836210::1722822994::1722822994::1::::<><>::
+set.svg::CompressedTexture2D::7374282244844152748::1722822994::1722822994::1::::<><>::
+update.svg::CompressedTexture2D::1388319587067716478::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Editor/Images/Interactable/::1730338411
+decrement_icon.svg::CompressedTexture2D::3598714787571246953::1722822994::1722822994::1::::<><>::
+increment_icon.svg::CompressedTexture2D::7705718629669986091::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Editor/Images/Pieces/::1730338411
+add-folder.svg::CompressedTexture2D::70289101131231738::1722822994::1722822994::1::::<><>::
+closed-icon.svg::CompressedTexture2D::8832306723559159287::1722822994::1722822994::1::::<><>::
+expand-icon.svg::CompressedTexture2D::5598266563617168116::1722822994::1722822994::1::::<><>::
+open-icon.svg::CompressedTexture2D::848339285911761348::1722822994::1722822994::1::::<><>::
+variable.svg::CompressedTexture2D::7736806399882628569::1722822994::1722822994::1::::<><>::
+variable_icon.png::CompressedTexture2D::582349284127075295::1722822994::1722822994::1::::<><>::
+warning.svg::CompressedTexture2D::9223293116452544095::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Editor/Images/Resources/::1730338411
+character.svg::CompressedTexture2D::2464911902091785916::1722822994::1722822994::1::::<><>::
+icon_character.png::CompressedTexture2D::3275168337811362221::1722822994::1722822994::1::::<><>::
+portrait.svg::CompressedTexture2D::7528673539557211468::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Editor/Images/Toolbar/::1730338411
+add-character.svg::CompressedTexture2D::893739393082554513::1722822994::1722822994::1::::<><>::
+add-timeline.svg::CompressedTexture2D::4096396075137893428::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Editor/Settings/::1730338411
+csv_file.gd::GDScript::-1::1722822994::0::1::::DialogicCsvFile<>RefCounted<>::
+HintLabelStylingScript.gd::GDScript::-1::1722822994::0::1::::<>Label<>::
+settings_editor.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+settings_editor.tscn::PackedScene::7581199648315592263::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Settings/settings_editor.gd
+settings_general.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_general.tscn::PackedScene::4770425969564889479::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Settings/settings_general.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn
+settings_modules.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_modules.tscn::PackedScene::1049388304965887887::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Settings/settings_modules.gd
+settings_page.gd::GDScript::-1::1722822994::0::1::::DialogicSettingsPage<>Control<>::
+settings_translation.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_translation.tscn::PackedScene::5295236732155278879::1722822994::0::1::::<><>::res://addons/dialogic/Editor/Settings/settings_translation.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn
+::res://addons/dialogic/Editor/Theme/::1730338411
+MainTheme.tres::Theme::5934233903620397670::1722822994::0::1::::<><>::
+PickerTheme.tres::Theme::-1::1722822994::0::1::::<><>::
+::res://addons/dialogic/Editor/TimelineEditor/::1730338411
+test_timeline_scene.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+test_timeline_scene.tscn::PackedScene::1411608111636751797::1722822994::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/test_timeline_scene.gd
+timeline_editor.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+timeline_editor.tscn::PackedScene::5970468661901911489::1722822994::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/timeline_editor.gd<>uid://ysqbusmy0qma::::res://addons/dialogic/Editor/TimelineEditor/VisualEditor/timeline_editor_visual.tscn<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://defdeav8rli6o::::res://addons/dialogic/Editor/TimelineEditor/TextEditor/timeline_editor_text.tscn<>res://addons/dialogic/Editor/TimelineEditor/TextEditor/syntax_highlighter.gd
+::res://addons/dialogic/Editor/TimelineEditor/TextEditor/::1730338411
+CodeCompletionHelper.gd::GDScript::-1::1722822994::0::1::::<>Node<>::
+syntax_highlighter.gd::GDScript::-1::1722822994::0::1::::<>SyntaxHighlighter<>::
+timeline_editor_text.gd::GDScript::-1::1722822994::0::1::::<>CodeEdit<>::
+timeline_editor_text.tscn::PackedScene::7450528642519072660::1722822994::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/TextEditor/timeline_editor_text.gd
+::res://addons/dialogic/Editor/TimelineEditor/VisualEditor/::1730338411
+AddEventButton.gd::GDScript::-1::1722822994::0::1::::<>Button<>::
+AddEventButton.tscn::PackedScene::7471135678809411347::1722822994::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/VisualEditor/AddEventButton.gd
+TimelineArea.gd::GDScript::-1::1722822994::0::1::::<>ScrollContainer<>::
+timeline_editor_visual.gd::GDScript::-1::1722822994::0::1::::<>Container<>::
+timeline_editor_visual.tscn::PackedScene::1722665383415802528::1722822994::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/VisualEditor/timeline_editor_visual.gd<>uid://cqst728xxipcw::::res://addons/dialogic/Editor/Theme/MainTheme.tres<>res://addons/dialogic/Editor/TimelineEditor/VisualEditor/TimelineArea.gd<>res://addons/dialogic/Editor/Events/EventBlock/event_right_click_menu.gd
+::res://addons/dialogic/Example Assets/::1730338411
+already_read_indicator.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+default_event.gd::GDScript::-1::1722822994::0::1::::<>DialogicEvent<>::
+::res://addons/dialogic/Example Assets/backgrounds/::1730338411
+BubbleEnd.png::CompressedTexture2D::4388992966405638191::1722822994::1722822994::1::::<><>::
+rpg_box.webp::CompressedTexture2D::7316104029476229333::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/Fonts/::1730338411
+Roboto-Bold.ttf::FontFile::4974502607393535045::1722822994::1722822994::1::::<><>::
+Roboto-Italic.ttf::FontFile::4497760812860504706::1722822994::1722822994::1::::<><>::
+Roboto-Regular.ttf::FontFile::1510113951259642821::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/next-indicator/::1730338411
+next-indicator-dialogic-1.png::CompressedTexture2D::2836034055411034436::1722822994::1722822994::1::::<><>::
+next-indicator.png::CompressedTexture2D::1456296135446448723::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/portraits/::1730338411
+CustomPortrait_AnimatedSprite.gd::GDScript::-1::1722822994::0::1::::<>DialogicPortrait<>::
+CustomPortrait_AnimatedSprite.tscn::PackedScene::6485364008882196833::1722822994::0::1::::<><>::res://addons/dialogic/Example Assets/portraits/CustomPortrait_AnimatedSprite.gd<>uid://bfkpn7mrd786b::::res://addons/dialogic/Example Assets/portraits/Antonio/pl5.png<>uid://s2jsr1aqiu84::::res://addons/dialogic/Example Assets/portraits/Antonio/pl5 blink.png
+CustomPortrait_FaceAtlas.gd::GDScript::-1::1722822994::0::1::::<>DialogicPortrait<>::
+CustomPortrait_FaceAtlas.tscn::PackedScene::2845154141187326594::1722822994::0::1::::<><>::res://addons/dialogic/Example Assets/portraits/CustomPortrait_FaceAtlas.gd<>uid://djqit26f4be4f::::res://addons/dialogic/Example Assets/portraits/Princess/princess_blank.png<>uid://ndmjrpk41eo4::::res://addons/dialogic/Example Assets/portraits/Portrait1.png<>uid://dokv225cp85ja::::res://addons/dialogic/Example Assets/portraits/Princess/anger.png<>uid://5bruuhj5cqu4::::res://addons/dialogic/Example Assets/portraits/Princess/frown.png<>uid://dg7c4umbfsyvs::::res://addons/dialogic/Example Assets/portraits/Princess/joy.png<>uid://bu3631ymfqxi3::::res://addons/dialogic/Example Assets/portraits/Princess/neutral.png<>uid://c5aku2g01k6c6::::res://addons/dialogic/Example Assets/portraits/Princess/shock.png<>uid://dsid4ye0q74nl::::res://addons/dialogic/Example Assets/portraits/Princess/smile.png
+Portrait1.png::CompressedTexture2D::919393693178095657::1722822994::1722822994::1::::<><>::
+Portrait2.png::CompressedTexture2D::1938111132874110083::1722822994::1722822994::1::::<><>::
+simple_highlight_portrait.gd::GDScript::-1::1722822994::0::1::::<>DialogicPortrait<>::
+simple_highlight_portrait.tscn::PackedScene::3635328490225322467::1722822994::0::1::::<><>::res://addons/dialogic/Example Assets/portraits/simple_highlight_portrait.gd
+::res://addons/dialogic/Example Assets/portraits/Antonio/::1730338411
+pl5 blink.png::CompressedTexture2D::1319716915152970511::1722822994::1722822994::1::::<><>::
+pl5 doubt.png::CompressedTexture2D::3218325265989410153::1722822994::1722822994::1::::<><>::
+pl5 hate.png::CompressedTexture2D::5324493651075027799::1722822994::1722822994::1::::<><>::
+pl5 plot.png::CompressedTexture2D::1847134394740618713::1722822994::1722822994::1::::<><>::
+pl5 sad.png::CompressedTexture2D::1681860982527452758::1722822994::1722822994::1::::<><>::
+pl5 scoff.png::CompressedTexture2D::2243750991992031624::1722822994::1722822994::1::::<><>::
+pl5 shy.png::CompressedTexture2D::422004432329654047::1722822994::1722822994::1::::<><>::
+pl5 surprise.png::CompressedTexture2D::8256606552180457098::1722822994::1722822994::1::::<><>::
+pl5.png::CompressedTexture2D::2758944349698687091::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/portraits/Jane/::1730338411
+pl3 avoid.png::CompressedTexture2D::4902013924914132830::1722822994::1722822994::1::::<><>::
+pl3 blink.png::CompressedTexture2D::717033631075681535::1722822994::1722822994::1::::<><>::
+pl3 concept.png::CompressedTexture2D::5652734515281763143::1722822994::1722822994::1::::<><>::
+pl3 confusion.png::CompressedTexture2D::1250680617202567399::1722822994::1722822994::1::::<><>::
+pl3 doubt.png::CompressedTexture2D::8961644949867984061::1722822994::1722822994::1::::<><>::
+pl3 happy.png::CompressedTexture2D::7619887200828168161::1722822994::1722822994::1::::<><>::
+pl3 plot.png::CompressedTexture2D::1436854618165922505::1722822994::1722822994::1::::<><>::
+pl3 sad.png::CompressedTexture2D::2720743778910772313::1722822994::1722822994::1::::<><>::
+pl3 shy.png::CompressedTexture2D::4066329412326880800::1722822994::1722822994::1::::<><>::
+pl3 surprise.png::CompressedTexture2D::7094381226958986882::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/portraits/Princess/::1730338411
+anger.png::CompressedTexture2D::8163874377422716514::1722822994::1722822994::1::::<><>::
+frown.png::CompressedTexture2D::2108798653379899605::1722822994::1722822994::1::::<><>::
+joy.png::CompressedTexture2D::7646629492103694140::1722822994::1722822994::1::::<><>::
+neutral.png::CompressedTexture2D::3849933765807492184::1722822994::1722822994::1::::<><>::
+princess_blank.png::CompressedTexture2D::7824512820198242343::1722822994::1722822994::1::::<><>::
+shock.png::CompressedTexture2D::6879150990903275887::1722822994::1722822994::1::::<><>::
+smile.png::CompressedTexture2D::8439411465496085465::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/portraits/rpg_portraits/::1730338411
+base1.png::CompressedTexture2D::1834307237934138563::1722822994::1722822994::1::::<><>::
+base2.png::CompressedTexture2D::1755843844982455881::1722822994::1722822994::1::::<><>::
+base3.png::CompressedTexture2D::44506031136888370::1722822994::1722822994::1::::<><>::
+base4.png::CompressedTexture2D::7326120272898437631::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Example Assets/sound-effects/::1730338411
+LICENSE.txt::TextFile::-1::1722822994::0::1::::<><>::
+typing1.wav::AudioStreamWAV::4568010431156356564::1722822994::1722822994::1::::<><>::
+typing2.wav::AudioStreamWAV::6780804797620787432::1722822994::1722822994::1::::<><>::
+typing3.wav::AudioStreamWAV::8074633821211362004::1722822994::1722822994::1::::<><>::
+typing4.wav::AudioStreamWAV::6711814088015193613::1722822994::1722822994::1::::<><>::
+typing5.wav::AudioStreamWAV::8708586177471314411::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/::1730338412
+::res://addons/dialogic/Modules/Audio/::1730338411
+event_music.gd::GDScript::-1::1722822994::0::1::::DialogicMusicEvent<>DialogicEvent<>::
+event_sound.gd::GDScript::-1::1722822994::0::1::::DialogicSoundEvent<>DialogicEvent<>::
+icon_music.png::CompressedTexture2D::3834477294349682204::1722822994::1722822994::1::::<><>::
+icon_sound.png::CompressedTexture2D::9154319766566815221::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_audio.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Background/::1730338411
+dialogic_background.gd::GDScript::-1::1722822994::0::1::::DialogicBackground<>Node<>::
+event_background.gd::GDScript::-1::1722822994::0::1::::DialogicBackgroundEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::2161304343150396202::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+node_background_holder.gd::GDScript::-1::1722822994::0::1::::DialogicNode_BackgroundHolder<>ColorRect<>::
+subsystem_backgrounds.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Background/DefaultBackgroundScene/::1730338411
+default_background.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackground<>::
+default_background.tscn::PackedScene::5609335298910205153::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Background/DefaultBackgroundScene/default_background.gd
+::res://addons/dialogic/Modules/Background/Transitions/::1730338411
+class_dialogic_background_transition.gd::GDScript::-1::1722822994::0::1::::DialogicBackgroundTransition<>Node<>::
+default_transition_shader.gdshader::Shader::-1::1722822994::0::1::::<><>::
+push_transition_shader.gdshader::Shader::-1::1722822994::0::1::::<><>::
+simple_push_transitions.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+simple_swipe_gradient.tres::GradientTexture2D::6325365462525035453::1722822994::0::1::::<><>::
+simple_swipe_transitions.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+::res://addons/dialogic/Modules/Background/Transitions/Defaults/::1730338411
+push_down.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+push_left.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+push_right.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+push_up.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+simple_fade.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+simple_fade.tres::GradientTexture2D::1123686471488500410::1722822994::0::1::::<><>::
+swipe_diagonal_up_left.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+swipe_left_to_right.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+swipe_right_to_left.gd::GDScript::-1::1722822994::0::1::::<>DialogicBackgroundTransition<>::
+::res://addons/dialogic/Modules/Call/::1730338411
+event_call.gd::GDScript::-1::1722822994::0::1::::DialogicCallEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::8606518780689924191::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/Character/::1730338411
+class_dialogic_animation.gd::GDScript::-1::1722822994::0::1::::DialogicAnimation<>Node<>::
+default_portrait.gd::GDScript::-1::1722822994::0::1::::<>DialogicPortrait<>::
+default_portrait.tscn::PackedScene::4408357561561711185::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Character/default_portrait.gd
+dialogic_portrait.gd::GDScript::-1::1722822994::0::1::::DialogicPortrait<>Node<>::
+event_character.gd::GDScript::-1::1722822994::0::1::::DialogicCharacterEvent<>DialogicEvent<>::
+event_portrait_position.svg::CompressedTexture2D::3357497812767945100::1722822994::1722822994::1::::<><>::
+event_position.gd::GDScript::-1::1722822994::0::1::::DialogicPositionEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::1187685797109235607::1722822994::1722822994::1::::<><>::
+icon_position.png::CompressedTexture2D::6240753079284806829::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+node_portrait_container.gd::GDScript::-1::1722822994::0::1::::DialogicNode_PortraitContainer<>Control<>::
+preview_character.tres::Resource/Resource::8864788605870491990::1722822994::0::1::::<><>::res://addons/dialogic/Resources/character.gd
+settings_portraits.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_portraits.tscn::PackedScene::5887474122682821078::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Character/settings_portraits.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn
+subsystem_portraits.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+update_mirror.svg::CompressedTexture2D::7078541585566576810::1722822994::1722822994::1::::<><>::
+update_portrait.svg::CompressedTexture2D::1172326194480601119::1722822994::1722822994::1::::<><>::
+update_position.svg::CompressedTexture2D::1231062389803775804::1722822994::1722822994::1::::<><>::
+update_position.svg.2023_09_23_08_37_47.0.svg::CompressedTexture2D::7482897620836371334::1722822994::1722822994::1::::<><>::
+update_z_index.svg::CompressedTexture2D::6926037834983513426::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/Character/DefaultAnimations/::1730338412
+bounce.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+bounce_in.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+bounce_out.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+fade_in_up.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+fade_out_down.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+heartbeat.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+instant_in_or_out.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+shake_x.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+shake_y.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_in_down.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_in_left.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_in_right.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_in_up.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_out_down.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_out_left.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_out_right.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+slide_out_up.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+tada.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+zoom_in.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+zoom_in_center.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+zoom_out.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+zoom_out_center.gd::GDScript::-1::1722822994::0::1::::<>DialogicAnimation<>::
+::res://addons/dialogic/Modules/Choice/::1730338412
+event_choice.gd::GDScript::-1::1722822994::0::1::::DialogicChoiceEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::1552118133808780732::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+node_button_sound.gd::GDScript::-1::1722822994::0::1::::DialogicNode_ButtonSound<>AudioStreamPlayer<>::
+node_choice_button.gd::GDScript::-1::1722822994::0::1::::DialogicNode_ChoiceButton<>Button<>::
+settings_choices.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_choices.tscn::PackedScene::1404846898600483774::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Choice/settings_choices.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn
+subsystem_choices.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+ui_choice_end.gd::GDScript::-1::1722822994::0::1::::<>HBoxContainer<>::
+ui_choice_end.tscn::PackedScene::5738243432914111361::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Choice/ui_choice_end.gd
+::res://addons/dialogic/Modules/Clear/::1730338412
+clear_background.svg::CompressedTexture2D::3585755572244796303::1722822994::1722822994::1::::<><>::
+clear_characters.svg::CompressedTexture2D::9128672524072404421::1722822994::1722822994::1::::<><>::
+clear_music.svg::CompressedTexture2D::7071655307651287836::1722822994::1722822994::1::::<><>::
+clear_positions.svg::CompressedTexture2D::1232367920594935402::1722822994::1722822994::1::::<><>::
+clear_style.svg::CompressedTexture2D::5577303045295427718::1722822994::1722822994::1::::<><>::
+clear_textbox.svg::CompressedTexture2D::5824819402049082983::1722822994::1722822994::1::::<><>::
+event_clear.gd::GDScript::-1::1722822994::0::1::::DialogiClearEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::1106712064180300186::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/Comment/::1730338412
+event_comment.gd::GDScript::-1::1722822994::0::1::::DialogicCommentEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::494830544991740231::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/Condition/::1730338412
+event_condition.gd::GDScript::-1::1722822994::0::1::::DialogicConditionEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::2557495755310811754::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+ui_condition_end.gd::GDScript::-1::1722822994::0::1::::<>HBoxContainer<>::
+ui_condition_end.tscn::PackedScene::-1::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Condition/ui_condition_end.gd
+::res://addons/dialogic/Modules/Core/::1730338412
+event_end_branch.gd::GDScript::-1::1722822994::0::1::::DialogicEndBranchEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::4157435904291715593::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_animation.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+subsystem_expression.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+subsystem_input.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/::1730338412
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/::1730338412
+default_layout_base.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutBase<>::
+default_layout_base.tscn::PackedScene::5926939678892240724::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.gd
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/::1730338412
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+text_bubble_base.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutBase<>::
+text_bubble_base.tscn::PackedScene::1313567352675269338::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.gd
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/::1730338412
+background_layer_icon.svg::CompressedTexture2D::5684618338398076797::1722822994::1722822994::1::::<><>::
+full_background_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+full_background_layer.tscn::PackedScene::6620239367191024367::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.gd<>res://addons/dialogic/Modules/Background/node_background_holder.gd
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::6752591039733634668::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/::1730338412
+glossary_popup_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+glossary_popup_layer.tscn::PackedScene::8426085437997601224::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.gd
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+popup_glossary_layer_icon.svg::CompressedTexture2D::6773218685446495568::1722822994::1722822994::1::::<><>::
+preview.png::CompressedTexture2D::8851309275982362647::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/::1730338412
+example_history_item.gd::GDScript::-1::1722822994::0::1::::<>Container<>::
+example_history_item.tscn::PackedScene::6207016936388778734::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/example_history_item.gd
+history_icon.svg::CompressedTexture2D::6281808712891090691::1722822994::1722822994::1::::<><>::
+history_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+history_layer.tscn::PackedScene::24154399605827450::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.gd<>uid://cuoywrmvda1yg::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/example_history_item.tscn
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::4641689977736716692::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/::1730338412
+full_advance_input_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+full_advance_input_layer.tscn::PackedScene::5751287062166832928::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.gd<>res://addons/dialogic/Modules/Text/node_input.gd
+input_layer_icon.svg::CompressedTexture2D::3920242578168397878::1722822994::1722822994::1::::<><>::
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::4608186578602512888::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/::1730338412
+default_stylebox.tres::StyleBoxFlat::5646424049282425802::1722822994::0::1::::<><>::
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::1326475808619160445::1722822994::1722822994::1::::<><>::
+speaker-textbox-icon.svg::CompressedTexture2D::6572615020867580224::1722822994::1722822994::1::::<><>::
+speaker_portrait_textbox_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+textbox_with_speaker_portrait.tscn::PackedScene::4136285383422450981::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Character/node_portrait_container.gd<>res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/speaker_portrait_textbox_layer.gd<>res://addons/dialogic/Modules/Text/node_name_label.gd<>res://addons/dialogic/Modules/Text/node_dialog_text.gd<>res://addons/dialogic/Modules/Text/node_type_sound.gd
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/::1730338412
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::1666601866937659873::1722822994::1722822994::1::::<><>::
+speech_bubble.gdshader::Shader::-1::1722822994::0::1::::<><>::
+text_bubble.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+text_bubble.gdshader::Shader::-1::1722822994::0::1::::<><>::
+text_bubble.tscn::PackedScene::7980779173428697354::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble.gd<>res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble.gdshader<>res://addons/dialogic/Modules/Text/node_dialog_text.gd<>res://addons/dialogic/Modules/Text/node_type_sound.gd<>res://addons/dialogic/Modules/Text/node_name_label.gd
+text_bubble_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+text_bubble_layer.tscn::PackedScene::9072075339465482549::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.gd
+text_bubble_layer_icon.svg::CompressedTexture2D::7612818198478101362::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/::1730338412
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::3354729633291840074::1722822994::1722822994::1::::<><>::
+text_input_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+text_input_layer.tscn::PackedScene::6259548876513588080::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.gd<>res://addons/dialogic/Modules/TextInput/node_text_input.gd
+text_input_layer_icon.svg::CompressedTexture2D::9001753205476851513::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/::1730338412
+choices_layer_icon.svg::CompressedTexture2D::1619877049926111804::1722822994::1722822994::1::::<><>::
+choice_panel_focus.tres::StyleBoxFlat::3842993240234113681::1722822994::0::1::::<><>::
+choice_panel_hover.tres::StyleBoxFlat::1653175341677166036::1722822994::0::1::::<><>::
+choice_panel_normal.tres::StyleBoxFlat::1580218980019447892::1722822994::0::1::::<><>::
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::546001159453912051::1722822994::1722822994::1::::<><>::
+vn_choice_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+vn_choice_layer.tscn::PackedScene::225680225514622240::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.gd<>res://addons/dialogic/Modules/Choice/node_choice_button.gd<>res://addons/dialogic/Modules/Choice/node_button_sound.gd<>uid://b6c1p14bc20p1::::res://addons/dialogic/Example Assets/sound-effects/typing1.wav<>uid://c2viukvbub6v6::::res://addons/dialogic/Example Assets/sound-effects/typing4.wav
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/::1730338412
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+portrait_layer_icon.svg::CompressedTexture2D::396903176641995005::1722822994::1722822994::1::::<><>::
+preview.png::CompressedTexture2D::1716235565247592445::1722822994::1722822994::1::::<><>::
+vn_portrait_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+vn_portrait_layer.tscn::PackedScene::6512552610928516099::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.gd<>res://addons/dialogic/Modules/Character/node_portrait_container.gd
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/::1730338412
+animations.gd::GDScript::-1::1722822994::0::1::::<>AnimationPlayer<>::
+autoadvance_indicator.gd::GDScript::-1::1722822994::0::1::::<>Range<>::
+next.svg::CompressedTexture2D::4177175797267068132::1722822994::1722822994::1::::<><>::
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::7430644767600345417::1722822994::1722822994::1::::<><>::
+textbox_layer_icon.svg::CompressedTexture2D::5242980695374584833::1722822994::1722822994::1::::<><>::
+vn_textbox_default_panel.tres::StyleBoxFlat::232532601972438331::1722822994::0::1::::<><>::
+vn_textbox_layer.gd::GDScript::-1::1722822994::0::1::::<>DialogicLayoutLayer<>::
+vn_textbox_layer.tscn::PackedScene::3551277938196629571::1722822994::0::1::::<><>::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.gd<>res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/animations.gd<>res://addons/dialogic/Modules/Text/node_dialog_text.gd<>uid://dkv1pl1c1dq6::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_default_panel.tres<>res://addons/dialogic/Modules/Text/node_type_sound.gd<>res://addons/dialogic/Modules/Text/node_next_indicator.gd<>res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/autoadvance_indicator.gd<>uid://b0rpqfg4fhebk::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/next.svg<>res://addons/dialogic/Modules/Text/node_name_label.gd<>uid://m7gyepkysu83::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_name_label_panel.tres
+vn_textbox_name_label_panel.tres::StyleBoxFlat::908733606549242590::1722822994::0::1::::<><>::
+::res://addons/dialogic/Modules/DefaultLayoutParts/Style_SpeakerTextbox/::1730338412
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::8025234003730989842::1722822994::1722822994::1::::<><>::
+speaker_textbox_style.tres::Resource/Resource::7601804504371859326::1722822994::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+::res://addons/dialogic/Modules/DefaultLayoutParts/Style_TextBubbles/::1730338412
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::1244020212817713961::1722822994::1722822994::1::::<><>::
+textbubble_style.tres::Resource/Resource::4178401552284372098::1722822994::0::1::::<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>res://addons/dialogic/Resources/dialogic_style.gd<>uid://d2it0xiap3gnt::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
+::res://addons/dialogic/Modules/DefaultLayoutParts/Style_VN_Default/::1730338412
+default_vn_style.tres::Resource/Resource::2357056026045195210::1722822994::0::1::::<><>::res://addons/dialogic/Resources/dialogic_style.gd<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn
+part_config.cfg::TextFile::-1::1722822994::0::1::::<><>::
+preview.png::CompressedTexture2D::1793830588723612143::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/End/::1730338412
+event_end.gd::GDScript::-1::1722822994::0::1::::DialogicEndTimelineEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::6076849027047342294::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/Glossary/::1730338412
+add-glossary.svg::CompressedTexture2D::5081683421271977615::1722822994::1722822994::1::::<><>::
+event_glossary.gd::GDScript::-1::1722822994::0::1::::DialogicGlossaryEvent<>DialogicEvent<>::
+glossary_editor.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+glossary_editor.tscn::PackedScene::8573116271537495193::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Glossary/glossary_editor.gd<>uid://cenut3sc5cul0::::res://addons/dialogic/Modules/Glossary/add-glossary.svg
+glossary_resource.gd::GDScript::-1::1722822994::0::1::::DialogicGlossary<>Resource<>::
+icon.svg::CompressedTexture2D::4540926883099757451::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_glossary.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/History/::1730338412
+definition.svg::CompressedTexture2D::7977914867733989258::1722822994::1722822994::1::::<><>::
+event_history.gd::GDScript::-1::1722822994::0::1::::DialogicHistoryEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::1853570986969252340::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+settings_history.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_history.tscn::PackedScene::4542659110630949498::1722822994::0::1::::<><>::res://addons/dialogic/Modules/History/settings_history.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn
+subsystem_history.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Jump/::1730338412
+event_jump.gd::GDScript::-1::1722822994::0::1::::DialogicJumpEvent<>DialogicEvent<>::
+event_label.gd::GDScript::-1::1722822994::0::1::::DialogicLabelEvent<>DialogicEvent<>::
+event_return.gd::GDScript::-1::1722822994::0::1::::DialogicReturnEvent<>DialogicEvent<>::
+icon_jump.png::CompressedTexture2D::5087234462586838850::1722822994::1722822994::1::::<><>::
+icon_label.png::CompressedTexture2D::204052454782202907::1722822994::1722822994::1::::<><>::
+icon_return.svg::CompressedTexture2D::747971600453106621::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_jump.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Save/::1730338412
+event_save.gd::GDScript::-1::1722822994::0::1::::DialogicSaveEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::9161839171657716917::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+settings_save.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_save.tscn::PackedScene::5043017118059958494::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Save/settings_save.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn
+subsystem_save.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Settings/::1730338412
+event_setting.gd::GDScript::-1::1722822994::0::1::::DialogicSettingEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::5623309547840460913::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_settings.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Signal/::1730338412
+event_signal.gd::GDScript::-1::1722822994::0::1::::DialogicSignalEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::4030699739153263959::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/Style/::1730338412
+character_settings_style.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorMainSection<>::
+character_settings_style.tscn::PackedScene::364262010645065676::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Style/character_settings_style.gd<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn
+event_style.gd::GDScript::-1::1722822994::0::1::::DialogicStyleEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::5716795925671324642::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+node_style.gd::GDScript::-1::1722822994::0::1::::DialogicNode_StyleLayer<>Control<>::
+subsystem_styles.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/StyleEditor/::1730338412
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+styles_icon.svg::CompressedTexture2D::1849808737952588208::1722822994::1722822994::1::::<><>::
+style_editor.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+style_editor.tscn::PackedScene::6451656504138867178::1722822994::0::1::::<><>::res://addons/dialogic/Modules/StyleEditor/style_editor.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>res://addons/dialogic/Modules/StyleEditor/style_layer_editor.gd<>res://addons/dialogic/Modules/StyleEditor/Components/style_layer_tree.gd<>res://addons/dialogic/Modules/StyleEditor/Components/style_browser_window.gd<>uid://cs381i3h7sveq::::res://addons/dialogic/Modules/StyleEditor/Components/style_browser.tscn
+style_layer_editor.gd::GDScript::-1::1722822994::0::1::::<>HSplitContainer<>::
+::res://addons/dialogic/Modules/StyleEditor/Components/::1730338412
+StyleItem.gd::GDScript::-1::1722822994::0::1::::<>Container<>::
+StyleItem.tscn::PackedScene::7393949465201026258::1722822994::0::1::::<><>::res://addons/dialogic/Modules/StyleEditor/Components/StyleItem.gd
+style_browser.gd::GDScript::-1::1722822994::0::1::::<>Control<>::
+style_browser.tscn::PackedScene::6096093685190146780::1722822994::0::1::::<><>::res://addons/dialogic/Modules/StyleEditor/Components/style_browser.gd
+style_browser_window.gd::GDScript::-1::1722822994::0::1::::<>Window<>::
+style_layer_tree.gd::GDScript::-1::1722822994::0::1::::<>Tree<>::
+::res://addons/dialogic/Modules/Text/::1730338412
+auto_advance.gd::GDScript::-1::1722822994::0::1::::DialogicAutoAdvance<>RefCounted<>::
+auto_skip.gd::GDScript::-1::1722822994::0::1::::DialogicAutoSkip<>RefCounted<>::
+event_text.gd::GDScript::-1::1722822994::0::1::::DialogicTextEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::9151163472776694991::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+manual_advance.gd::GDScript::-1::1722822994::0::1::::DialogicManualAdvance<>RefCounted<>::
+node_dialog_text.gd::GDScript::-1::1722822994::0::1::::DialogicNode_DialogText<>RichTextLabel<>::
+node_input.gd::GDScript::-1::1722822994::0::1::::DialogicNode_Input<>Control<>::
+node_name_label.gd::GDScript::-1::1722822994::0::1::::DialogicNode_NameLabel<>Label<>::
+node_next_indicator.gd::GDScript::-1::1722822994::0::1::::DialogicNode_NextIndicator<>Control<>res://addons/dialogic/Modules/Text/node_next_indicator_icon.svg::
+node_next_indicator_icon.svg::CompressedTexture2D::302873534409359568::1722822994::1722822994::1::::<><>::
+node_type_sound.gd::GDScript::-1::1722822994::0::1::::DialogicNode_TypeSounds<>AudioStreamPlayer<>::
+settings_text.gd::GDScript::-1::1722822994::0::1::::<>DialogicSettingsPage<>::
+settings_text.tscn::PackedScene::5182578482178389069::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Text/settings_text.gd<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn
+subsystem_text.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Text/character_settings/::1730338412
+character_moods_settings.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorMainSection<>::
+character_moods_settings.tscn::PackedScene::2316461243569112225::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Text/character_settings/character_moods_settings.gd<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn<>uid://kdpp3mibml33::::res://addons/dialogic/Editor/Events/Fields/field_number.tscn<>res://addons/dialogic/Modules/Text/node_type_sound.gd
+character_portrait_mood_settings.gd::GDScript::-1::1722822994::0::1::::<>DialogicCharacterEditorPortraitSection<>::
+character_portrait_mood_settings.tscn::PackedScene::3871233133407303280::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Text/character_settings/character_portrait_mood_settings.gd<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn
+::res://addons/dialogic/Modules/TextInput/::1730338412
+event_text_input.gd::GDScript::-1::1722822994::0::1::::DialogicTextInputEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::8941053882979023594::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+node_text_input.gd::GDScript::-1::1722822994::0::1::::DialogicNode_TextInput<>Control<>::
+subsystem_text_input.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Variable/::1730338412
+add-variable.svg::CompressedTexture2D::1138705662028104178::1722822994::1722822994::1::::<><>::
+event_variable.gd::GDScript::-1::1722822994::0::1::::DialogicVariableEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::1655383244634406440::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_variables.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+variable.svg::CompressedTexture2D::5491954923084748079::1722822994::1722822994::1::::<><>::
+::res://addons/dialogic/Modules/Variable/variables_editor/::1730338412
+variables_editor.gd::GDScript::-1::1722822994::0::1::::<>DialogicEditor<>::
+variables_editor.tscn::PackedScene::2215279380841241914::1722822994::0::1::::<><>::res://addons/dialogic/Modules/Variable/variables_editor/variables_editor.gd<>res://addons/dialogic/Modules/Variable/variables_editor/variable_tree.gd
+variable_tree.gd::GDScript::-1::1722822994::0::1::::<>Tree<>::
+::res://addons/dialogic/Modules/Voice/::1730338412
+event_voice.gd::GDScript::-1::1722822994::0::1::::DialogicVoiceEvent<>DialogicEvent<>::
+icon.png::CompressedTexture2D::1495890933425968798::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+subsystem_voice.gd::GDScript::-1::1722822994::0::1::::<>DialogicSubsystem<>::
+::res://addons/dialogic/Modules/Wait/::1730338412
+event_wait.gd::GDScript::-1::1722822994::0::1::::DialogicWaitEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::5022412015422553386::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Modules/WaitInput/::1730338412
+event_wait_input.gd::GDScript::-1::1722822994::0::1::::DialogicWaitInputEvent<>DialogicEvent<>::
+icon.svg::CompressedTexture2D::2766149336681406939::1722822994::1722822994::1::::<><>::
+index.gd::GDScript::-1::1722822994::0::1::::<>DialogicIndexer<>::
+::res://addons/dialogic/Resources/::1730338412
+character.gd::GDScript::-1::1722822994::0::1::::DialogicCharacter<>Resource<>::
+CharacterResourceLoader.gd::GDScript::-1::1722822994::0::1::::DialogicCharacterFormatLoader<>ResourceFormatLoader<>::
+CharacterResourceSaver.gd::GDScript::-1::1722822994::0::1::::DialogicCharacterFormatSaver<>ResourceFormatSaver<>::
+dialogic_layout_base.gd::GDScript::-1::1722822994::0::1::::DialogicLayoutBase<>Node<>::
+dialogic_layout_layer.gd::GDScript::-1::1722822994::0::1::::DialogicLayoutLayer<>Node<>::
+dialogic_style.gd::GDScript::-1::1722822994::0::1::::DialogicStyle<>Resource<>::
+dialogic_style_layer.gd::GDScript::-1::1722822994::0::1::::DialogicStyleLayer<>Resource<>::
+event.gd::GDScript::-1::1722822994::0::1::::DialogicEvent<>Resource<>::
+timeline.gd::GDScript::-1::1722822994::0::1::::DialogicTimeline<>Resource<>::
+TimelineResourceLoader.gd::GDScript::-1::1722822994::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
+TimelineResourceSaver.gd::GDScript::-1::1722822994::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
+::res://addons/godot_sfxr/::1730338412
+GodotSfxr.gd::GDScript::-1::1721532145::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1721532146::0::1::::<><>::
+SfxrAudioStream.gd::GDScript::-1::1721532145::0::1::::<>AudioStreamWAV<>::
+SfxrGenerator.gd::GDScript::-1::1721532145::0::1::::SfxrGenerator<>RefCounted<>::
+SfxrGlobals.gd::GDScript::-1::1721532146::0::1::::SfxrGlobals<>Object<>::
+SfxrStreamPlayer2D.gd::GDScript::-1::1721541409::0::1::::<>AudioStreamPlayer2D<>::
+SfxrStreamPlayer3D.gd::GDScript::-1::1721532146::0::1::::<>AudioStreamPlayer3D<>::
+SfxrStreamPlayer.gd::GDScript::-1::1721539359::0::1::::<>AudioStreamPlayer<>::
+SfxrStreamPlayerInterface.gd::GDScript::-1::1721532146::0::1::::SfxrStreamPlayerInterface<>Object<>::
+::res://Anims/::1730338412
+All_Fire_Bullet_Pixel_16x16_01.png::CompressedTexture2D::7557977894603553575::1720411149::1720411150::1::::<><>::
+player_projectile.png::CompressedTexture2D::8201891443051774605::1721266136::1721266137::1::::<><>::
+::res://Anims/Turret_Laser/::1730338412
+laser_turret_fire.png::CompressedTexture2D::2440353939306193812::1721386742::1721443184::1::::<><>::
+turret_destroyed-sheet.png::CompressedTexture2D::8224205003217970962::1721446305::1721446306::1::::<><>::
+turret_hit-sheet.png::CompressedTexture2D::6010534698724156902::1721447309::1721447310::1::::<><>::
+::res://Audio/::1730338412
+default_bus_layout.tres::AudioBusLayout::8318395155331959068::1722749165::0::1::::<><>::
+::res://Audio/Music/::1730338412
+Brainstem_Music (intro).wav::AudioStreamWAV::3375240380100761082::1720747235::1720747240::1::::<><>::
+Brainstem_Music (loop).wav::AudioStreamWAV::1498932115893959428::1720747098::1720747107::1::::<><>::
+Brainstem_Music_Level1 (loop).wav::AudioStreamWAV::2287303745101908607::1721530649::1721530649::1::::<><>::
+Menu_ambient-game.mp3::AudioStreamMP3::950736578897766532::1722555625::1722555638::1::::<><>::
+::res://Audio/SFX/::1730338412
+bottle_open_1.mp3::AudioStreamMP3::321547468345658161::1721531172::1721531172::1::::<><>::
+laser_gate_deactivate.mp3::AudioStreamMP3::5923980926962130616::1722817056::1722817156::1::::<><>::
+laser_gate_loop.mp3::AudioStreamMP3::1091737499760023201::1722815373::1722815374::1::::<><>::
+laser_wall_hum.mp3::AudioStreamMP3::3788020568245011966::1722814530::1722814531::1::::<><>::
+pickup.mp3::AudioStreamMP3::4032543056016487870::1721532700::1721532706::1::::<><>::
+player_empty.tres::AudioStreamWAV::4777403424311640856::1721543705::0::1::::<><>::
+teleport.mp3::AudioStreamMP3::2904580552045606697::1721530960::1721530969::1::::<><>::
+turret_electric_charge_shoot.mp3::AudioStreamMP3::5511261923343650790::1722812258::1722812259::1::::<><>::
+turret_laser_ceiling_destroyed.tres::AudioStreamWAV::2565754326161826808::1721541505::0::1::::<><>::
+turret_laser_ceiling_hit.tres::AudioStreamWAV::1477065896327189256::1721541631::0::1::::<><>::
+turret_laser_charge_shoot.mp3::AudioStreamMP3::2010765695104066656::1721537525::1721537526::1::::<><>::
+::res://Audio/SFX/Enemy/::1730338412
+enemy_death.mp3::AudioStreamMP3::3717440029171591186::1721607560::1721607561::1::::<><>::
+enemy_hit.mp3::AudioStreamMP3::7263296525087116564::1721608478::1721608479::1::::<><>::
+enemy_melee_with_grunt.mp3::AudioStreamMP3::6784501691144649805::1721606270::1721606270::1::::<><>::
+::res://Audio/SFX/Player/::1730338412
+player_cannon.mp3::AudioStreamMP3::8465059297218103792::1721605806::1721605807::1::::<><>::
+player_hit_01.mp3::AudioStreamMP3::370413849641050617::1721597846::1721602376::1::::<><>::
+player_hit_02.mp3::AudioStreamMP3::6757014794472514683::1721597846::1721602376::1::::<><>::
+player_hit_03.mp3::AudioStreamMP3::4880728414885924029::1721597846::1721602376::1::::<><>::
+player_jump.mp3::AudioStreamMP3::873731141291066693::1721605220::1721605220::1::::<><>::
+player_jump_double.mp3::AudioStreamMP3::868230516318611327::1721605248::1721605248::1::::<><>::
+player_slide.mp3::AudioStreamMP3::3702693962392706558::1721605103::1721605104::1::::<><>::
+::res://Audio/SFX/Player/Melee/::1730338412
+player_down_attack.mp3::AudioStreamMP3::4562031553168899531::1721546509::1721546520::1::::<><>::
+player_melee_01.mp3::AudioStreamMP3::2245048862766834719::1721546509::1721546530::1::::<><>::
+player_melee_02.mp3::AudioStreamMP3::395187763245227148::1721546509::1721546536::1::::<><>::
+player_up_attack.mp3::AudioStreamMP3::5871698474572378419::1721546509::1721546542::1::::<><>::
+::res://Background/::1730338412
+1.png::CompressedTexture2D::6602840090241117171::1719261498::1719261504::1::::<><>::
+2.png::CompressedTexture2D::341770468844581843::1719261498::1719261504::1::::<><>::
+3.png::CompressedTexture2D::1823441823066080641::1719261498::1719261504::1::::<><>::
+4.png::CompressedTexture2D::980221761673723938::1719261498::1719261504::1::::<><>::
+5.png::CompressedTexture2D::5154681840508685403::1719261498::1719261504::1::::<><>::
+Background.png::CompressedTexture2D::1547823937100781389::1719261498::1719261504::1::::<><>::
+::res://Boss_Ember/::1730338412
+::res://Boss_Ember/Anims/::1730338412
+Attacks_128.png::CompressedTexture2D::8130233911311300759::1724899321::1724899322::1::::<><>::
+attack_from_air_128.png::CompressedTexture2D::3361013383790598787::1724899321::1724899322::1::::<><>::
+Death_128.png::CompressedTexture2D::750602256782644336::1724899321::1724899322::1::::<><>::
+Idle_128.png::CompressedTexture2D::103221454454248570::1724899321::1724899322::1::::<><>::
+Pray_128.png::CompressedTexture2D::3347297176011793877::1724899321::1724899322::1::::<><>::
+Run_128.png::CompressedTexture2D::8199874808180775226::1724899321::1724899322::1::::<><>::
+Run_128_plasma_sword.png::CompressedTexture2D::5428960949890151335::1724899321::1724899322::1::::<><>::
+::res://Dialogue/::1730338412
+boss_room_timeline.dtl::Resource::-1::1722833381::0::1::::<><>::
+chest_armor_timeline.dtl::Resource::-1::1722840407::0::1::::<><>::
+double_jump_timeline.dtl::Resource::-1::1722832587::0::1::::<><>::
+electricity_imbuement_timeline.dtl::Resource::-1::1729846799::0::1::::<><>::
+leg_armor_timeline.dtl::Resource::-1::1722832665::0::1::::<><>::
+level_2_timeline.dtl::Resource::-1::1722824832::0::1::::<><>::
+slide_timeline.dtl::Resource::-1::1722832199::0::1::::<><>::
+speaker_textbox_style.tres::Resource/DialogicStyle::5058775224976413317::1730158528::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+system_style.tres::Resource/DialogicStyle::3387072669331005296::1730158528::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+::res://Dialogue/Characters/::1730338412
+dr_maddison.dch::Resource::-1::1722825093::0::1::::<><>::
+eli_beacon_ryder.dch::Resource::-1::1722830046::0::1::::<><>::
+system.dch::Resource::-1::1722830192::0::1::::<><>::
+::res://Dialogue/Portraits/::1730338412
+Dr Thaddeus Maddison.png::CompressedTexture2D::5635005612109116715::1722822464::1722822486::1::::<><>::
+Eli Beacon Ryder.png::CompressedTexture2D::928944495126280418::1722822469::1722822500::1::::<><>::
+::res://Enemy/::1730338412
+Attacks.png::CompressedTexture2D::7917338213673376029::1719119993::1719119994::1::::<><>::
+Death.png::CompressedTexture2D::4725946101783246079::1719120365::1719120366::1::::<><>::
+enemy_hit_stun.png::CompressedTexture2D::258182676091437713::1721290800::1721290800::1::::<><>::
+Hurt(no_sword).png::CompressedTexture2D::6949657494095484027::1719187162::1719187162::1::::<><>::
+Hurt.png::CompressedTexture2D::8391880170091072722::1719122089::1719122100::1::::<><>::
+Idle.png::CompressedTexture2D::3519114300191013436::1719119646::1719119647::1::::<><>::
+Run.png::CompressedTexture2D::7962641739322757704::1719164785::1719164786::1::::<><>::
+::res://GUI/::1730338416
+Cursor_Bullseye(32x32).png::CompressedTexture2D::1843144031012290220::1729829346::1729829359::1::::<><>::
+Cursor_Bullseye(48x48).png::CompressedTexture2D::9153922461327688325::1729829495::1729829505::1::::<><>::
+Cursor_Bullseye(64x64).png::CompressedTexture2D::7106203561358786935::1729829000::1729829016::1::::<><>::
+GUI_sprites.png::CompressedTexture2D::7011427428764096457::1719196995::1719196995::1::::<><>::
+::res://GUI/ProgressBar_05/::1730338416
+BarV5_Bar.png::CompressedTexture2D::4549160491595019566::1719197536::1719197537::1::::<><>::
+BarV5_Bar_Vert.png::CompressedTexture2D::7621974420386974184::1719197775::1719197775::1::::<><>::
+BarV5_ProgressBar.png::CompressedTexture2D::8324345384240979656::1719197536::1719197537::1::::<><>::
+BarV5_ProgressBarBorder.png::CompressedTexture2D::6222412137752692948::1719197536::1719197537::1::::<><>::
+BarV5_ProgressBarBorder_Vert.png::CompressedTexture2D::8200625439976837828::1719197775::1719197775::1::::<><>::
+BarV5_ProgressBar_Vert.png::CompressedTexture2D::792996815481006366::1719197775::1719197775::1::::<><>::
+::res://GUI/ProgressBar_10/::1730338416
+BarV8_Bar.png::CompressedTexture2D::2423835301564166097::1721295999::1721295999::1::::<><>::
+BarV8_ProgressBar.png::CompressedTexture2D::6111961959371667900::1721295999::1721295999::1::::<><>::
+::res://Icons/::1730338416
+Cannon Icon.png::CompressedTexture2D::1214181721052671138::1721295726::1721295735::1::::<><>::
+Double Jump Icon (no bg).png::CompressedTexture2D::7406740876437746954::1721622893::1721622899::1::::<><>::
+Double Jump.png::CompressedTexture2D::6272612356691730346::1720341331::1720341345::1::::<><>::
+Electricity Chest Armor (no bg).png::CompressedTexture2D::1252138941851006324::1721623620::1721623633::1::::<><>::
+Electricity Chest Armor.png::CompressedTexture2D::9034525934019201301::1720415036::1720415046::1::::<><>::
+Electricity Imbuement.png::CompressedTexture2D::1076650981979409644::1720389992::1720390047::1::::<><>::
+Electricity Leg Armor (no bg).png::CompressedTexture2D::7462784916695839951::1721622524::1721622551::1::::<><>::
+Electricity Leg Armor.png::CompressedTexture2D::5196782280639717270::1720415055::1720415064::1::::<><>::
+Slide Icon (no bg).png::CompressedTexture2D::1063395434194492897::1721623068::1721623079::1::::<><>::
+Slide Icon.png::CompressedTexture2D::8410879359968901083::1720413914::1720413923::1::::<><>::
+sword_electric.png::CompressedTexture2D::2794520379480456102::1721624986::1721624986::1::::<><>::
+sword_regular.png::CompressedTexture2D::5940708445608872194::1721624986::1721624986::1::::<><>::
+Weapon Background.png::CompressedTexture2D::2450698322326872454::1721624642::1721624642::1::::<><>::
+::res://Icons/Health/::1730338416
+greater_health_potion.png::CompressedTexture2D::1775326414535449070::1719900437::1720341318::1::::<><>::
+major_health_potion.png::CompressedTexture2D::8290035763162814813::1719900436::1720341318::1::::<><>::
+minor_health_potion.png::CompressedTexture2D::265422079558348213::1719900436::1720341318::1::::<><>::
+::res://Main_Character/::1730338416
+MainChar - slide (frame left).png::CompressedTexture2D::40741872255627406::1721088876::1721088876::1::::<><>::
+MainChar - slide (frame right).png::CompressedTexture2D::856426780037224654::1721086349::1721088856::1::::<><>::
+::res://Main_Character/Anims/::1730338416
+MainChar - death.png::CompressedTexture2D::1975622685224537791::1719188081::1719188094::1::::<><>::
+MainChar - dodge back left.png::CompressedTexture2D::2303064926456276478::1721156128::1721156129::1::::<><>::
+MainChar - dodge back right.png::CompressedTexture2D::3567828433419462595::1721156128::1721156129::1::::<><>::
+MainChar - hit(no_sword & brightness).png::CompressedTexture2D::1467324511358999115::1719205766::1719205766::1::::<><>::
+MainChar - hit.png::CompressedTexture2D::8053278073050478226::1719204845::1719204853::1::::<><>::
+MainChar - idle.png::CompressedTexture2D::4859911366366536319::1719032365::1719077953::1::::<><>::
+MainChar - slide.png::CompressedTexture2D::2963448529498716511::1719181907::1719181908::1::::<><>::
+::res://Main_Character/Anims/Attack/::1730338416
+MainChar - attack(first).png::CompressedTexture2D::4931294503138838411::1719083143::1719083143::1::::<><>::
+MainChar - attack(recover).png::CompressedTexture2D::8144789586255306696::1719083151::1719083151::1::::<><>::
+MainChar - attack(second).png::CompressedTexture2D::1394148841268584819::1719083156::1719083157::1::::<><>::
+MainChar - cannon.png::CompressedTexture2D::5687268039439837664::1721191418::1721191418::1::::<><>::
+MainChar - jump(DownAttack).png::CompressedTexture2D::5917358939420390723::1719099545::1719099546::1::::<><>::
+MainChar - jump(upAttack).png::CompressedTexture2D::8869774927534562978::1719092067::1719092068::1::::<><>::
+::res://Main_Character/Anims/Crouch/::1719083171
+::res://Main_Character/Anims/Electricity/::1730338416
+MainChar - death - Electricity.png::CompressedTexture2D::6777087991796114913::1720381779::1720381779::1::::<><>::
+MainChar - idle - Electricity.png::CompressedTexture2D::6094816918360181183::1720381779::1720381779::1::::<><>::
+MainChar - slide - Electricity.png::CompressedTexture2D::5102984840788747256::1720381779::1720381779::1::::<><>::
+::res://Main_Character/Anims/Electricity/Attack/::1730338416
+MainChar - attack(first) - Electricity.png::CompressedTexture2D::4437399940830360389::1720381701::1720381702::1::::<><>::
+MainChar - attack(recover) - Electricity.png::CompressedTexture2D::2842431118798041224::1720381701::1720381702::1::::<><>::
+MainChar - attack(second) - Electricity.png::CompressedTexture2D::7167608607353579256::1720381701::1720381702::1::::<><>::
+MainChar - cannon - Electricity.png::CompressedTexture2D::5454812854120126584::1721377197::1721377197::1::::<><>::
+MainChar - jump(DownAttack) - Electricity.png::CompressedTexture2D::881374067798714897::1720381701::1720381702::1::::<><>::
+MainChar - jump(upAttack) - Electricity.png::CompressedTexture2D::7857368950363828558::1720381701::1720381702::1::::<><>::
+::res://Main_Character/Anims/Electricity/Jump/::1730338416
+MainChar - jump(end) - Electricity.png::CompressedTexture2D::8919596185806817042::1720381721::1720381721::1::::<><>::
+MainChar - jump(start) - Electricity.png::CompressedTexture2D::1419108217706959434::1720381721::1720381721::1::::<><>::
+::res://Main_Character/Anims/Electricity/Run/::1730338416
+MainChar - run(end) - Electricity.png::CompressedTexture2D::2343774823977112157::1720381738::1720381738::1::::<><>::
+MainChar - run(loop) - Electricity.png::CompressedTexture2D::270414550168042865::1720381738::1720381738::1::::<><>::
+MainChar - run(start) - Electricity.png::CompressedTexture2D::6059237506349046113::1720381738::1720381738::1::::<><>::
+::res://Main_Character/Anims/Jump/::1730338416
+MainChar - jump(end).png::CompressedTexture2D::7634881199131157695::1719082519::1719082519::1::::<><>::
+MainChar - jump(start).png::CompressedTexture2D::5715065497120403503::1719083030::1719083031::1::::<><>::
+::res://Main_Character/Anims/Run/::1730338416
+MainChar - run(end).png::CompressedTexture2D::2798183417258948373::1719077990::1719077994::1::::<><>::
+MainChar - run(loop).png::CompressedTexture2D::1878463398017565822::1719077990::1719077994::1::::<><>::
+MainChar - run(start).png::CompressedTexture2D::4413762684655547887::1719077990::1719077994::1::::<><>::
+::res://Menu/::1730338416
+ControllerLayout.png::CompressedTexture2D::7626167613677374167::1722804576::1722805441::1::::<><>::
+KeyboardAndMouseControls.png::CompressedTexture2D::2800573431601756510::1722809176::1722809182::1::::<><>::
+main_menu_background_01.png::CompressedTexture2D::5288738153171854318::1722545476::1722545640::1::::<><>::
+main_menu_background_02.png::CompressedTexture2D::3862506027380200147::1722545645::1722545646::1::::<><>::
+main_menu_background_03.jpg::CompressedTexture2D::3831370752613980170::1722545702::1722545703::1::::<><>::
+::res://MiniGames/::1730338416
+::res://MiniGames/BinaryPattern/::1730338416
+ComputerTerminal.png::CompressedTexture2D::2933313247278987885::1722383870::1722383871::1::::<><>::
+::res://Scenes/::1730338416
+binary_pattern_mini_game(v_2).tscn::PackedScene::1074349536842938440::1722420508::0::1::::<><>::res://Scripts/binary_pattern_mini_game(v_2).gd<>uid://bh16igflrmd30::::res://MiniGames/BinaryPattern/ComputerTerminal.png<>uid://c5fyiff7lhmls::::res://Themes/SpinBoxTheme.tres
+binary_pattern_mini_game.tscn::PackedScene::1492682390625722862::1722399956::0::1::::<><>::res://Scripts/BinaryPatternMiniGame.gd<>uid://bh16igflrmd30::::res://MiniGames/BinaryPattern/ComputerTerminal.png
+boss_ember.tscn::PackedScene::2620927817861214670::1730158532::0::1::::<><>::uid://bn5dntxi8mkmt::::res://Boss_Ember/Anims/attack_from_air_128.png<>res://Scripts/boss_ember.gd<>uid://kxukr11p87bw::::res://Boss_Ember/Anims/Death_128.png<>uid://bqabo4sj7cc5::::res://Boss_Ember/Anims/Idle_128.png<>uid://bnxpq3y45cntl::::res://Boss_Ember/Anims/Pray_128.png<>uid://do3c0fr4ts8py::::res://Boss_Ember/Anims/Run_128.png
+boss_room_ember.tscn::PackedScene::7167999847995078149::1730158532::0::1::::<><>::uid://dm4asihe1648g::::res://TileSets/Science_Lab.png<>res://Scripts/boss_room_ember.gd<>uid://bdluke067fkvu::::res://Scenes/boss_ember.tscn<>uid://eyiml2p3ukwi::::res://Scenes/player.tscn
+controls.tscn::PackedScene::793336928998254853::1730158532::0::1::::<><>::res://Scripts/controls.gd<>uid://chl50k4h7naok::::res://Menu/main_menu_background_01.png<>uid://dgwf4ps828hoh::::res://Menu/ControllerLayout.png<>uid://bf5vbg0pjxwp7::::res://Menu/KeyboardAndMouseControls.png<>uid://dfkwy1cmnf5e8::::res://Themes/menu_theme.tres<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd
+credits.tscn::PackedScene::4521738453697430454::1730158532::0::1::::<><>::res://Scripts/credits.gd<>uid://l33n8ximtrfe::::res://Themes/Fonts/oxanium/Oxanium-Regular.ttf<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd
+enemy.tscn::PackedScene::4001398938074329778::1730158532::0::1::::<><>::res://Scripts/enemy.gd<>uid://b8ljv27msbdvb::::res://Enemy/Death.png<>uid://c6ap3xfxcrlh0::::res://Enemy/Hurt(no_sword).png<>uid://bqexke6lny5au::::res://Enemy/Idle.png<>uid://dxch38oq7l4l::::res://Enemy/enemy_hit_stun.png<>uid://dk2hnyuy20aqf::::res://Enemy/Attacks.png<>uid://dlpfstjr5ryqa::::res://Enemy/Run.png<>uid://b52wakahgw8q1::::res://GUI/ProgressBar_05/BarV5_Bar.png<>uid://dqum0tvp8yupk::::res://GUI/ProgressBar_05/BarV5_ProgressBar.png<>uid://c3wp0s44u3sph::::res://Audio/SFX/Enemy/enemy_melee_with_grunt.mp3<>uid://bs70xupdhhnig::::res://Audio/SFX/Enemy/enemy_death.mp3<>uid://vbrca1886hjs::::res://Audio/SFX/turret_laser_ceiling_hit.tres<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd<>uid://dbqnoycn7tinc::::res://Audio/SFX/Enemy/enemy_hit.mp3
+hud.tscn::PackedScene::6265440080664494920::1722399956::0::1::::<><>::res://Scripts/hud.gd<>uid://dgue2myoaetjk::::res://GUI/ProgressBar_05/BarV5_Bar_Vert.png<>uid://lkesogxo6yhy::::res://GUI/ProgressBar_05/BarV5_ProgressBar_Vert.png<>uid://basehitfdic46::::res://GUI/ProgressBar_10/BarV8_Bar.png<>uid://ctcxedkhg8vxs::::res://GUI/ProgressBar_10/BarV8_ProgressBar.png<>uid://rkfnpi02g66i::::res://Icons/Cannon Icon.png<>uid://ba6ev4w67s06u::::res://Icons/Weapon Background.png<>uid://cqvyun1leunxa::::res://Icons/sword_regular.png<>uid://plsjwy8igsn1::::res://Icons/Electricity Imbuement.png
+laser_gate_v5.tscn::PackedScene::5939413322798773048::1722829221::0::1::::<><>::res://Scripts/laser_gate_v5.gd<>uid://hefxmw4lgqiv::::res://Traps/Laser Wall/v5/laser_activate(vx5).png<>uid://ccmtgopa75swf::::res://Traps/Laser Wall/v5/laser_deactivate(vx5).png<>uid://suwfd5fplxp5::::res://Traps/Laser Wall/v5/laser_idle(vx5)v2.png<>uid://ps300hxvxkgf::::res://Audio/SFX/laser_gate_loop.mp3<>uid://cqnvdoawgih3e::::res://Audio/SFX/laser_gate_deactivate.mp3
+laser_spikes.tscn::PackedScene::4227030169788291641::1722399956::0::1::::<><>::res://Scripts/laser_spikes.gd<>uid://2shiywt8x11t::::res://Traps/Laser Spikes/laser_spikes_activate.png<>uid://g3lw1vveff81::::res://Traps/Laser Spikes/laser_spikes_deactivate.png<>uid://bd6vror36dcx0::::res://Traps/Laser Spikes/laser_spikes_idle.png
+laser_spikes_always_on.tscn::PackedScene::4113255322030053796::1722809650::0::1::::<><>::res://Scripts/laser_spikes_always_on.gd<>uid://2shiywt8x11t::::res://Traps/Laser Spikes/laser_spikes_activate.png<>uid://g3lw1vveff81::::res://Traps/Laser Spikes/laser_spikes_deactivate.png<>uid://bd6vror36dcx0::::res://Traps/Laser Spikes/laser_spikes_idle.png
+laser_wall_h4.tscn::PackedScene::8793729287428863562::1722829221::0::1::::<><>::res://Scripts/laser_wall_h4.gd<>uid://btq6hm1nimty4::::res://Traps/Laser Wall/v4/laser_activate(vx4).png<>uid://chcsnq1wjxvmc::::res://Traps/Laser Wall/v4/laser_deactivate(vx4).png<>uid://1q4681npst2r::::res://Traps/Laser Wall/v4/laser_idle(vx4)v2.png<>uid://bt77e680mxjd3::::res://Audio/SFX/laser_wall_hum.mp3
+laser_wall_h5.tscn::PackedScene::2582385981197051327::1722829221::0::1::::<><>::res://Scripts/laser_wall_h5.gd<>uid://hefxmw4lgqiv::::res://Traps/Laser Wall/v5/laser_activate(vx5).png<>uid://ccmtgopa75swf::::res://Traps/Laser Wall/v5/laser_deactivate(vx5).png<>uid://suwfd5fplxp5::::res://Traps/Laser Wall/v5/laser_idle(vx5)v2.png<>uid://bt77e680mxjd3::::res://Audio/SFX/laser_wall_hum.mp3
+laser_wall_v4.tscn::PackedScene::7399314004036234355::1722829221::0::1::::<><>::res://Scripts/laser_wall_v4.gd<>uid://btq6hm1nimty4::::res://Traps/Laser Wall/v4/laser_activate(vx4).png<>uid://chcsnq1wjxvmc::::res://Traps/Laser Wall/v4/laser_deactivate(vx4).png<>uid://1q4681npst2r::::res://Traps/Laser Wall/v4/laser_idle(vx4)v2.png<>uid://bt77e680mxjd3::::res://Audio/SFX/laser_wall_hum.mp3
+laser_wall_v5.tscn::PackedScene::7090530416054712771::1722829221::0::1::::<><>::res://Scripts/laser_wall_v4.gd<>uid://hefxmw4lgqiv::::res://Traps/Laser Wall/v5/laser_activate(vx5).png<>uid://ccmtgopa75swf::::res://Traps/Laser Wall/v5/laser_deactivate(vx5).png<>uid://suwfd5fplxp5::::res://Traps/Laser Wall/v5/laser_idle(vx5)v2.png<>uid://bt77e680mxjd3::::res://Audio/SFX/laser_wall_hum.mp3
+level_1.tscn::PackedScene::563774960593533791::1730158529::0::1::::<><>::res://Scripts/level_1.gd<>uid://clcorwpiy8g0y::::res://TileSets/Assets_City.png<>uid://eyiml2p3ukwi::::res://Scenes/player.tscn<>uid://cyc5ltyjjutux::::res://TileSets/Assets_City_Skyless.png<>uid://cxw1grv8wq50d::::res://TileSets/Central City/Buildings.png<>uid://bpx1aa2kxgbsu::::res://TileSets/Central City/Tiles.png<>uid://wb1o03a81mnd::::res://Background/Background.png<>uid://bldwltkb8t6gl::::res://TileSets/Central City/Props-01.png<>res://Scripts/AudioStreamPlayer_Level_1.gd
+level_2.tscn::PackedScene::7514174428867081269::1730158532::0::1::::<><>::res://Scripts/level_2.gd<>uid://clcorwpiy8g0y::::res://TileSets/Assets_City.png<>uid://dm4asihe1648g::::res://TileSets/Science_Lab.png<>uid://eyiml2p3ukwi::::res://Scenes/player.tscn<>uid://cr272qoql4ciw::::res://TileSets/Assets_City_Lab1.png<>uid://bbpnqr5evasx2::::res://TileSets/decor_tiles_combined.png<>uid://chhb382ohakq::::res://TileSets/decor_tiles_combined_background.png<>uid://bxakpravolhjm::::res://Scenes/enemy.tscn<>uid://plsjwy8igsn1::::res://Icons/Electricity Imbuement.png<>uid://daydxwfido0gm::::res://TileSets/decor_tiles_combined_foreground.png<>uid://ddr4670s4dxju::::res://Icons/Double Jump Icon (no bg).png<>uid://tdidx2sutpay::::res://Scenes/turret_electric.tscn<>uid://cwg6ok5bj668d::::res://Scenes/turret_laser_ceiling.tscn<>uid://pfd75mfd3hen::::res://Icons/Slide Icon (no bg).png<>res://Scripts/AudioStreamPlayer_Level_2.gd<>uid://dela8hx5km7y6::::res://Icons/Electricity Leg Armor (no bg).png<>uid://r3sssrxc1jfw::::res://Icons/Electricity Chest Armor (no bg).png<>uid://bxpnnot6shd3c::::res://Audio/SFX/pickup.mp3<>uid://b1hutmesilyb6::::res://Scenes/laser_spikes.tscn<>uid://cqvdjf0agmc21::::res://Scenes/laser_gate_v5.tscn<>uid://c8ayaaark7um2::::res://Scenes/laser_wall_v5.tscn<>uid://byuqyju51yhse::::res://Scenes/laser_spikes_always_on.tscn<>uid://dxj0o3xq7kqwo::::res://Scenes/laser_wall_h4.tscn<>uid://0j8mp4s63eao::::res://Icons/Health/greater_health_potion.png
+level_transition.tscn::PackedScene::2988669429347827804::1730158532::0::1::::<><>::res://Scripts/level_transition.gd<>uid://chl50k4h7naok::::res://Menu/main_menu_background_01.png<>uid://xjx5w8bn4bbg::::res://Themes/Fonts/oxanium/Oxanium-Light.ttf
+main_menu.tscn::PackedScene::7129717149788114007::1730158529::0::1::::<><>::res://Scripts/main_menu.gd<>uid://dff20kekx6vl6::::res://Themes/Fonts/glitch_inside/Glitch inside.otf<>uid://chl50k4h7naok::::res://Menu/main_menu_background_01.png<>uid://dfkwy1cmnf5e8::::res://Themes/menu_theme.tres<>uid://l33n8ximtrfe::::res://Themes/Fonts/oxanium/Oxanium-Regular.ttf<>uid://nssq0ngol1gy::::res://Audio/Music/Menu_ambient-game.mp3<>uid://bxpnnot6shd3c::::res://Audio/SFX/pickup.mp3<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd
+pause_menu.tscn::PackedScene::441806741376162793::1730158532::0::1::::<><>::res://Scripts/pause_menu.gd<>uid://chl50k4h7naok::::res://Menu/main_menu_background_01.png<>uid://dfkwy1cmnf5e8::::res://Themes/menu_theme.tres<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd
+player.tscn::PackedScene::330808226304872604::1730158532::0::1::::<><>::res://Scripts/Player.gd<>uid://cna7qdt5c384c::::res://Main_Character/Anims/Attack/MainChar - cannon.png<>uid://dg1nm33gdiq7p::::res://Main_Character/Anims/Jump/MainChar - jump(end).png<>uid://cqkobi86n6bkd::::res://Main_Character/Anims/Attack/MainChar - jump(DownAttack).png<>uid://cbigba4qyyiod::::res://Main_Character/Anims/MainChar - idle.png<>uid://107auqn0tlte::::res://Main_Character/Anims/Run/MainChar - run(loop).png<>uid://cnooj8t114vn0::::res://Main_Character/Anims/Jump/MainChar - jump(start).png<>uid://cci0x2gvi0svr::::res://Main_Character/Anims/Attack/MainChar - attack(first).png<>uid://dobnq2wq3nbtw::::res://Main_Character/Anims/Attack/MainChar - attack(recover).png<>uid://t4lospok8jx0::::res://Main_Character/Anims/Attack/MainChar - attack(second).png<>uid://dymt5reho3yqc::::res://Main_Character/Anims/Attack/MainChar - jump(upAttack).png<>uid://bihrtgl4ilnhf::::res://Main_Character/Anims/MainChar - slide.png<>uid://3fahm3k7d7sd::::res://Main_Character/Anims/MainChar - death.png<>uid://u51vddglvwp4::::res://Main_Character/Anims/MainChar - hit(no_sword & brightness).png<>uid://ms7dqb8a6mw4::::res://Main_Character/Anims/Electricity/Attack/MainChar - jump(DownAttack) - Electricity.png<>uid://d0cypfuapsvjm::::res://Main_Character/Anims/Electricity/Jump/MainChar - jump(end) - Electricity.png<>uid://cs3m0kjkr2ylb::::res://Main_Character/Anims/Electricity/MainChar - idle - Electricity.png<>uid://uhorf17228b3::::res://Main_Character/Anims/Electricity/Jump/MainChar - jump(start) - Electricity.png<>uid://b4hrlf80la6m8::::res://Main_Character/Anims/Electricity/Attack/MainChar - attack(first) - Electricity.png<>uid://bgq5optyqtk5m::::res://Main_Character/Anims/Electricity/Attack/MainChar - attack(recover) - Electricity.png<>uid://daebp4l1eaygm::::res://Main_Character/Anims/Electricity/Attack/MainChar - attack(second) - Electricity.png<>uid://dj7fyo0j4cgwk::::res://Main_Character/Anims/Electricity/Attack/MainChar - jump(upAttack) - Electricity.png<>uid://d38xnqngbwib::::res://Main_Character/Anims/Electricity/Run/MainChar - run(loop) - Electricity.png<>uid://cex6odqhiyhuu::::res://Main_Character/Anims/Electricity/MainChar - slide - Electricity.png<>uid://cjyl8agleya2c::::res://Main_Character/Anims/Electricity/Attack/MainChar - cannon - Electricity.png<>uid://mg4hu42l3yjm::::res://Main_Character/MainChar - slide (frame right).png<>uid://bq3ju3wu7feal::::res://Main_Character/Anims/MainChar - dodge back right.png<>res://addons/godot_sfxr/SfxrStreamPlayer.gd<>uid://et03s3qmbwl2::::res://Audio/SFX/bottle_open_1.mp3<>uid://cachevxq8ksbo::::res://Audio/SFX/player_empty.tres<>res://Scripts/Player/AudioStreamPlayer2D_Melee.gd<>uid://fjowriw8qpdh::::res://Audio/SFX/Player/player_hit_01.mp3<>res://Scripts/Player/AudioStreamPlayer2D_HitReact.gd<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd
+projectile_electricity.tscn::PackedScene::9211062080448105235::1722829221::0::1::::<><>::res://Scripts/projectile_electricity.gd<>uid://ckkgh61aak1ht::::res://Traps/Turret Electric/electricity_projectile.png
+projectile_laser.tscn::PackedScene::3671394442703274063::1722731311::0::1::::<><>::res://Scripts/projectile_laser.gd<>uid://dfxe16gtqt8fb::::res://Anims/All_Fire_Bullet_Pixel_16x16_01.png
+settings_menu.tscn::PackedScene::8542964106523370319::1730158532::0::1::::<><>::res://Scripts/settings_menu.gd<>uid://chl50k4h7naok::::res://Menu/main_menu_background_01.png<>uid://dfkwy1cmnf5e8::::res://Themes/menu_theme.tres<>uid://dxrawmc2snef4::::res://Themes/Fonts/cyborg_punk/Cyborg Punk.ttf<>uid://l33n8ximtrfe::::res://Themes/Fonts/oxanium/Oxanium-Regular.ttf<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd
+turret_electric.tscn::PackedScene::1340273506300742060::1722829221::0::1::::<><>::uid://lb2qrqhegi02::::res://Traps/Turret Electric/electric_turret.png<>res://Scripts/turret_electric.gd<>uid://cbawfkxgxes3a::::res://Traps/Turret Electric/turret_electricity_destroyed.png<>uid://bopib45e30hrg::::res://Traps/Turret Electric/turret_electricity_hit_react.png<>uid://b52wakahgw8q1::::res://GUI/ProgressBar_05/BarV5_Bar.png<>uid://dqum0tvp8yupk::::res://GUI/ProgressBar_05/BarV5_ProgressBar.png<>uid://vbrca1886hjs::::res://Audio/SFX/turret_laser_ceiling_hit.tres<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd<>uid://bcs4umk16g1my::::res://Audio/SFX/turret_laser_ceiling_destroyed.tres<>uid://ckrxxcsr4io5c::::res://Audio/SFX/turret_electric_charge_shoot.mp3
+turret_laser_ceiling.tscn::PackedScene::6331289993474053897::1722803260::0::1::::<><>::res://Scripts/turret_laser_ceiling.gd<>uid://c43soi5nv6pqa::::res://Sprites/Traps/turret_laser_base.png<>uid://ba1ejjnyggn13::::res://Anims/Turret_Laser/laser_turret_fire.png<>uid://crvsvmmgr4vvq::::res://Anims/Turret_Laser/turret_hit-sheet.png<>uid://dpf4pp1x4dy8i::::res://Anims/Turret_Laser/turret_destroyed-sheet.png<>uid://b52wakahgw8q1::::res://GUI/ProgressBar_05/BarV5_Bar.png<>uid://dqum0tvp8yupk::::res://GUI/ProgressBar_05/BarV5_ProgressBar.png<>uid://3wbat55ewrwa::::res://Audio/SFX/turret_laser_charge_shoot.mp3<>uid://bcs4umk16g1my::::res://Audio/SFX/turret_laser_ceiling_destroyed.tres<>res://addons/godot_sfxr/SfxrStreamPlayer2D.gd<>uid://vbrca1886hjs::::res://Audio/SFX/turret_laser_ceiling_hit.tres
+::res://Scenes/Player/::1730338416
+projectile_player.tscn::PackedScene::8182572880668560233::1722803260::0::1::::<><>::res://Scripts/Player/projectile_player.gd<>uid://do4b7osod2l54::::res://Anims/player_projectile.png
+::res://Scripts/::1730338416
+AudioStreamPlayer_Level_1.gd::GDScript::-1::1721608841::0::1::::<>AudioStreamPlayer<>::
+AudioStreamPlayer_Level_2.gd::GDScript::-1::1721623986::0::1::::<>AudioStreamPlayer<>::
+BinaryPatternMiniGame.gd::GDScript::-1::1722384345::0::1::::<>Node2D<>::
+binary_pattern_mini_game(v_2).gd::GDScript::-1::1722416216::0::1::::<>Node2D<>::
+boss_ember.gd::GDScript::-1::1724916372::0::1::::<>CharacterBody2D<>::
+boss_room_ember.gd::GDScript::-1::1724916372::0::1::::<>Node2D<>::
+controls.gd::GDScript::-1::1729833159::0::1::::<>Control<>::
+credits.gd::GDScript::-1::1729833690::0::1::::<>Control<>::
+enemy.gd::GDScript::-1::1724995437::0::1::::<>CharacterBody2D<>::
+global.gd::GDScript::-1::1730141122::0::1::::<>Node<>::
+hud.gd::GDScript::-1::1721703995::0::1::::<>Control<>::
+hud_manager.gd::GDScript::-1::1724903193::0::1::::<>CanvasLayer<>::
+laser_gate_v5.gd::GDScript::-1::1722817337::0::1::::<>Node2D<>::
+laser_spikes.gd::GDScript::-1::1722495094::0::1::::<>Node2D<>::
+laser_spikes_always_on.gd::GDScript::-1::1722731724::0::1::::<>Node2D<>::
+laser_wall_h4.gd::GDScript::-1::1722815424::0::1::::<>Node2D<>::
+laser_wall_h5.gd::GDScript::-1::1722815424::0::1::::<>Node2D<>::
+laser_wall_v4.gd::GDScript::-1::1722814591::0::1::::<>Node2D<>::
+level_1.gd::GDScript::-1::1729842878::0::1::::<>Node2D<>::
+level_2.gd::GDScript::-1::1729846779::0::1::::<>Node2D<>::
+level_transition.gd::GDScript::-1::1724908803::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1730141249::0::1::::<>Node2D<>::
+pause_menu.gd::GDScript::-1::1729835809::0::1::::<>Control<>::
+Player.gd::GDScript::-1::1729830657::0::1::::<>CharacterBody2D<>::
+projectile_electricity.gd::GDScript::-1::1722813019::0::1::::<>Area2D<>::
+projectile_laser.gd::GDScript::-1::1722493110::0::1::::<>Area2D<>::
+Save.gd::GDScript::-1::1719961255::0::1::::<>Node<>::
+settings_menu.gd::GDScript::-1::1730139425::0::1::::<>Control<>::
+turret_electric.gd::GDScript::-1::1722812814::0::1::::<>Node2D<>::
+turret_laser_ceiling.gd::GDScript::-1::1722491560::0::1::::<>Node2D<>::
+::res://Scripts/Player/::1730338416
+AudioStreamPlayer2D_HitReact.gd::GDScript::-1::1721602550::0::1::::<>AudioStreamPlayer2D<>::
+AudioStreamPlayer2D_Melee.gd::GDScript::-1::1721605702::0::1::::<>AudioStreamPlayer2D<>::
+projectile_player.gd::GDScript::-1::1722760684::0::1::::<>Area2D<>::
+::res://Sprites/::1730338416
+::res://Sprites/Traps/::1730338416
+turret.png::CompressedTexture2D::2730923481364425403::1720411686::1721381922::1::::<><>::
+turret_laser_base.png::CompressedTexture2D::6867238784138173380::1721381908::1721381908::1::::<><>::
+turret_laser_head.png::CompressedTexture2D::2064906858936376972::1721381908::1721381908::1::::<><>::
+::res://Sprites/Traps/electric_turret/::1730338416
+tile000.png::CompressedTexture2D::2714353457615903093::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::1752656456007005129::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::493187640899235215::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::3924875508296049747::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::4415889999776240855::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::8164538208747850753::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::2380535593333620077::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::9123123130014325319::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::861733517569115356::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::6499261670419314956::1721378701::1721378731::1::::<><>::
+tile010.png::CompressedTexture2D::3744819375963673197::1721378701::1721378731::1::::<><>::
+tile011.png::CompressedTexture2D::2804352043991455984::1721378701::1721378731::1::::<><>::
+tile012.png::CompressedTexture2D::3048765733749130929::1721378701::1721378731::1::::<><>::
+tile013.png::CompressedTexture2D::1670644453733078256::1721378701::1721378731::1::::<><>::
+tile014.png::CompressedTexture2D::886780372377950372::1721378701::1721378731::1::::<><>::
+tile015.png::CompressedTexture2D::1425341776074785027::1721378701::1721378731::1::::<><>::
+tile016.png::CompressedTexture2D::2150009941953770765::1721378701::1721378731::1::::<><>::
+tile017.png::CompressedTexture2D::2192380794590759993::1721378701::1721378731::1::::<><>::
+tile018.png::CompressedTexture2D::6462303629833689739::1721378701::1721378731::1::::<><>::
+tile019.png::CompressedTexture2D::4137035396170130327::1721378701::1721378731::1::::<><>::
+tile020.png::CompressedTexture2D::8294222547480017784::1721378701::1721378731::1::::<><>::
+tile021.png::CompressedTexture2D::700958843566205768::1721378701::1721378731::1::::<><>::
+tile022.png::CompressedTexture2D::2075668663710747504::1721378701::1721378731::1::::<><>::
+tile023.png::CompressedTexture2D::4012547828539070835::1721378701::1721378731::1::::<><>::
+tile024.png::CompressedTexture2D::6823178988242829796::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_activate/::1730338416
+tile000.png::CompressedTexture2D::830430671385071622::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::1059395237089150105::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::905310582425309981::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::3069474787387185274::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::1018193616345922339::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::684721796301058752::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::5721261738247529703::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::3685015109028017370::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::8980215787019760966::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::2430089897887239004::1721378701::1721378731::1::::<><>::
+tile010.png::CompressedTexture2D::8672323571339760932::1721378701::1721378731::1::::<><>::
+tile011.png::CompressedTexture2D::592914003941987908::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_deactivate/::1730338416
+tile000.png::CompressedTexture2D::5454019033157330460::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::6092793770048738361::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::1268553423448958887::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::8816221776047919114::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::9034081989532122261::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::5920559751013614920::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::1373234636393063597::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::1868369075955563221::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::5999673337555756048::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_idle/::1730338416
+tile000.png::CompressedTexture2D::8969165750997517015::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::265668556653510788::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::5965395340163613801::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::3257333744279600713::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::4990832031400589480::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::2598512283992161419::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::9216149845510649975::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::9090717154349466348::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_spikes_activate/::1730338416
+tile000.png::CompressedTexture2D::3903803178371236689::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::7278174047085088242::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::2640800569792433977::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::3870960107576924205::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::1960784157036818290::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::1781241345075081035::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::8711932366359561816::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::6904557711602693081::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::1258276147670233234::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::2200449799461632717::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_spikes_deactivate/::1730338416
+tile000.png::CompressedTexture2D::6179249167693410882::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::2113758395585858022::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::5400798290228517414::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::1254707565496299752::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::4785866756177507976::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::4527802864959764686::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::8948057035725361742::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::8340849568833707152::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_spikes_idle/::1730338416
+tile000.png::CompressedTexture2D::1341258731408717461::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::5802222028380731470::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::2704919827918389101::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::9077494947833046891::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::4934805303555153917::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::8422207786577587396::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::2047573149419050664::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::8144619709848669235::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::412045759803423882::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::5670149758014255086::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/laser_turret/::1730338416
+tile000.png::CompressedTexture2D::1069022085988232942::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::8284992678188215792::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::9184514251012680985::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::8433332752492722364::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::6046938604972651408::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::2427026863480354144::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::4023579094236118427::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::3514704014535800770::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::7993903116921904124::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::8701280215735430432::1721378701::1721378731::1::::<><>::
+tile010.png::CompressedTexture2D::4404278615708491833::1721378701::1721378731::1::::<><>::
+tile011.png::CompressedTexture2D::8579627208784937516::1721378701::1721378731::1::::<><>::
+tile012.png::CompressedTexture2D::1549857438524066655::1721378701::1721378731::1::::<><>::
+tile013.png::CompressedTexture2D::546393706720309565::1721378701::1721378731::1::::<><>::
+tile014.png::CompressedTexture2D::892427179683999609::1721378701::1721378731::1::::<><>::
+tile015.png::CompressedTexture2D::6306442300039588150::1721378701::1721378731::1::::<><>::
+tile016.png::CompressedTexture2D::1014221113356512043::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/saw_activate/::1730338416
+tile000.png::CompressedTexture2D::3508338515018406304::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::7541420868873316972::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::57874806302426969::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::4264677922878862683::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::5101064329084217526::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::5099799059771701839::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::1254236275542740206::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::1319485796564020369::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::7695695150783733049::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::925508376868437268::1721378701::1721378731::1::::<><>::
+tile010.png::CompressedTexture2D::832833344930757062::1721378701::1721378731::1::::<><>::
+tile011.png::CompressedTexture2D::6865078949705881120::1721378701::1721378731::1::::<><>::
+tile012.png::CompressedTexture2D::1244072311682537302::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/saw_deactivate/::1730338416
+tile000.png::CompressedTexture2D::2961340159204136021::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::5020869940715767123::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::4148183913280183708::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::8201616019233324550::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::1485720693024811075::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::3001841655614381353::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::3471941306101356946::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::3026576812831360579::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::8018718820843050591::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::5058973880823448914::1721378701::1721378731::1::::<><>::
+tile010.png::CompressedTexture2D::2691287816973991961::1721378701::1721378731::1::::<><>::
+tile011.png::CompressedTexture2D::743966661853950485::1721378701::1721378731::1::::<><>::
+tile012.png::CompressedTexture2D::2984896654720721058::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/saw_idle/::1730338416
+tile000.png::CompressedTexture2D::758960077889169394::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::8146583496825504911::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::4793880263997883477::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::4914318396255751675::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::1345550973903116044::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::404468549994998446::1721378701::1721378731::1::::<><>::
+::res://Sprites/Traps/wall_blades/::1730338417
+tile000.png::CompressedTexture2D::4895313890190772986::1721378701::1721378731::1::::<><>::
+tile001.png::CompressedTexture2D::4481053975065936403::1721378701::1721378731::1::::<><>::
+tile002.png::CompressedTexture2D::5518794560161396674::1721378701::1721378731::1::::<><>::
+tile003.png::CompressedTexture2D::1140323062754602933::1721378701::1721378731::1::::<><>::
+tile004.png::CompressedTexture2D::4846217612792263414::1721378701::1721378731::1::::<><>::
+tile005.png::CompressedTexture2D::4285694161590120728::1721378701::1721378731::1::::<><>::
+tile006.png::CompressedTexture2D::6362743001378804883::1721378701::1721378731::1::::<><>::
+tile007.png::CompressedTexture2D::3752512924017383590::1721378701::1721378731::1::::<><>::
+tile008.png::CompressedTexture2D::5495316250086825379::1721378701::1721378731::1::::<><>::
+tile009.png::CompressedTexture2D::5370852342663209796::1721378701::1721378731::1::::<><>::
+tile010.png::CompressedTexture2D::8215125920533144729::1721378701::1721378731::1::::<><>::
+tile011.png::CompressedTexture2D::6217917449069336955::1721378701::1721378731::1::::<><>::
+tile012.png::CompressedTexture2D::8214417181815538666::1721378701::1721378731::1::::<><>::
+tile013.png::CompressedTexture2D::7804441575544430106::1721378701::1721378731::1::::<><>::
+tile014.png::CompressedTexture2D::6639210219970206689::1721378701::1721378731::1::::<><>::
+tile015.png::CompressedTexture2D::6690589805108418956::1721378701::1721378731::1::::<><>::
+tile016.png::CompressedTexture2D::3442335099611908503::1721378701::1721378731::1::::<><>::
+tile017.png::CompressedTexture2D::1767923122187780398::1721378701::1721378731::1::::<><>::
+tile018.png::CompressedTexture2D::8449108551259398270::1721378701::1721378731::1::::<><>::
+tile019.png::CompressedTexture2D::8101464205823940956::1721378701::1721378731::1::::<><>::
+tile020.png::CompressedTexture2D::4469245704702435744::1721378701::1721378731::1::::<><>::
+tile021.png::CompressedTexture2D::4050953431543268096::1721378701::1721378731::1::::<><>::
+tile022.png::CompressedTexture2D::9179166894848357230::1721378701::1721378731::1::::<><>::
+tile023.png::CompressedTexture2D::7184169234334638851::1721378701::1721378731::1::::<><>::
+tile024.png::CompressedTexture2D::7049870105468007826::1721378701::1721378731::1::::<><>::
+tile025.png::CompressedTexture2D::5023529206435415335::1721378701::1721378731::1::::<><>::
+tile026.png::CompressedTexture2D::2799252596161805740::1721378701::1721378731::1::::<><>::
+tile027.png::CompressedTexture2D::38044187443576358::1721378701::1721378731::1::::<><>::
+tile028.png::CompressedTexture2D::7156522521058908770::1721378701::1721378731::1::::<><>::
+::res://src/::1730338417
+::res://Themes/::1730338417
+menu_theme.tres::Theme::7532230048964183961::1730158528::0::1::::<><>::uid://dxrawmc2snef4::::res://Themes/Fonts/cyborg_punk/Cyborg Punk.ttf
+::res://Themes/Fonts/::1730338417
+::res://Themes/Fonts/cyborg_punk/::1730338417
+Cyborg Punk.ttf::FontFile::8808739798660108735::1722542563::1722542564::1::::<><>::
+::res://Themes/Fonts/glitch_inside/::1730338417
+Glitch inside.otf::FontFile::7522212693591133073::1722542200::1722542200::1::::<><>::
+::res://Themes/Fonts/oxanium/::1730338417
+FONTLOG.txt::TextFile::-1::1722550603::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1722550603::0::1::::<><>::
+Oxanium-Bold.ttf::FontFile::3631873315638032425::1722550603::1722550604::1::::<><>::
+Oxanium-ExtraBold.ttf::FontFile::3494462160127755395::1722550603::1722550604::1::::<><>::
+Oxanium-ExtraLight.ttf::FontFile::7218660320008410963::1722550603::1722550604::1::::<><>::
+Oxanium-Light.ttf::FontFile::1634374074668256068::1722550603::1722550604::1::::<><>::
+Oxanium-Medium.ttf::FontFile::6003165940853237683::1722550603::1722550604::1::::<><>::
+Oxanium-Regular.ttf::FontFile::831604917431596938::1722550603::1722550604::1::::<><>::
+Oxanium-SemiBold.ttf::FontFile::1474865794530086938::1722550603::1722550604::1::::<><>::
+::res://TileSets/::1730338417
+Assets_City.png::CompressedTexture2D::5549928978390421322::1719026048::1719349924::1::::<><>::
+Assets_City_Lab1.png::CompressedTexture2D::6023781931539998662::1719991538::1719991539::1::::<><>::
+Assets_City_Skyless.png::CompressedTexture2D::6463344559163759963::1721554634::1721554634::1::::<><>::
+decor_tiles_combined.png::CompressedTexture2D::2488394026701383745::1721462151::1721462152::1::::<><>::
+decor_tiles_combined_background.png::CompressedTexture2D::155256659175843740::1721619511::1721619512::1::::<><>::
+decor_tiles_combined_foreground.png::CompressedTexture2D::7209031505020646812::1721462442::1721462442::1::::<><>::
+full decor tiles (scaled x2).png::CompressedTexture2D::5970249892579574116::1721451907::1721451908::1::::<><>::
+full decor tiles.png::CompressedTexture2D::3413652766023586485::1721448874::1721448875::1::::<><>::
+Science_Lab.png::CompressedTexture2D::8061427705111884980::1719953532::1719953547::1::::<><>::
+::res://TileSets/Central City/::1730338417
+Background Props.png::CompressedTexture2D::225045861732709611::1721554744::1721554744::1::::<><>::
+Base Color.png::CompressedTexture2D::8290519094152490412::1721554744::1721554744::1::::<><>::
+Buildings.png::CompressedTexture2D::6434191365092897421::1721554721::1721554721::1::::<><>::
+Frontal Fog.png::CompressedTexture2D::9113551108687954057::1721554744::1721554744::1::::<><>::
+Mid Fog.png::CompressedTexture2D::3586043387606410588::1721554744::1721554744::1::::<><>::
+Props-01.png::CompressedTexture2D::3166047528029466907::1721554721::1721554721::1::::<><>::
+Tiles.png::CompressedTexture2D::3488312710613936540::1721554721::1721554721::1::::<><>::
+::res://Traps/::1730338417
+::res://Traps/Laser Spikes/::1730338417
+laser_spikes_activate.png::CompressedTexture2D::1932698178554962455::1722299561::1722299562::1::::<><>::
+laser_spikes_deactivate.png::CompressedTexture2D::479644212335896024::1722299561::1722299562::1::::<><>::
+laser_spikes_idle.png::CompressedTexture2D::2662289103229846647::1722299561::1722299562::1::::<><>::
+::res://Traps/Laser Wall/::1730338417
+::res://Traps/Laser Wall/v4/::1730338417
+laser_activate(vx4).png::CompressedTexture2D::3754934155260729625::1722311847::1722311848::1::::<><>::
+laser_deactivate(vx4).png::CompressedTexture2D::5269409031102160502::1722311264::1722311265::1::::<><>::
+laser_idle(vx4)v2.png::CompressedTexture2D::1859757905101983123::1722311264::1722311265::1::::<><>::
+::res://Traps/Laser Wall/v5/::1730338417
+laser_activate(vx5).png::CompressedTexture2D::499924740304591205::1722320963::1722320964::1::::<><>::
+laser_deactivate(vx5).png::CompressedTexture2D::4939156683879908073::1722320963::1722320964::1::::<><>::
+laser_idle(vx5)v2.png::CompressedTexture2D::1306031647538029664::1722320963::1722320964::1::::<><>::
+::res://Traps/Turret Electric/::1730338417
+electricity_projectile.png::CompressedTexture2D::5495752052210249401::1722486447::1722486448::1::::<><>::
+electric_turret.png::CompressedTexture2D::775810507217051229::1722485208::1722485208::1::::<><>::
+turret_electricity_destroyed.png::CompressedTexture2D::4844375474902151440::1722490062::1722490063::1::::<><>::
+turret_electricity_hit_react.png::CompressedTexture2D::3400519252413924716::1722489595::1722489595::1::::<><>::
+::res://_README Docs/::1730338417
+README_Enemy.txt::TextFile::-1::1723936316::0::1::::<><>::
+README_Level1.txt::TextFile::-1::1723931445::0::1::::<><>::
+README_Level2.txt::TextFile::-1::1723932264::0::1::::<><>::
+README_MainMenu.txt::TextFile::-1::1723936879::0::1::::<><>::
+README_MainProject.txt::TextFile::-1::1723928776::0::1::::<><>::
+README_Player.txt::TextFile::-1::1723936309::0::1::::<><>::

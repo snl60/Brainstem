@@ -1,0 +1,74 @@
+[gd_scene load_steps=10 format=3 uid="uid://bskplhthu1iwt"]
+
+[ext_resource type="Script" path="res://Scripts/projectile_laser.gd" id="1_jsiwd"]
+[ext_resource type="Texture2D" uid="uid://dfxe16gtqt8fb" path="res://Anims/All_Fire_Bullet_Pixel_16x16_01.png" id="2_avc70"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tovof"]
+atlas = ExtResource("2_avc70")
+region = Rect2(176, 80, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e52v7"]
+atlas = ExtResource("2_avc70")
+region = Rect2(192, 80, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n1075"]
+atlas = ExtResource("2_avc70")
+region = Rect2(208, 80, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8tf7o"]
+atlas = ExtResource("2_avc70")
+region = Rect2(224, 80, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k45jk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tovof")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e52v7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n1075")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8tf7o")
+}],
+"loop": true,
+"name": &"projectile",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uhoqj"]
+radius = 2.23607
+
+[sub_resource type="Curve" id="Curve_8o2m7"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[node name="Projectile_Laser" type="Area2D" groups=["turret_projectile"]]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_jsiwd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_k45jk")
+animation = &"projectile"
+frame = 1
+frame_progress = 0.282052
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_uhoqj")
+
+[node name="Line2D_Trail" type="Line2D" parent="."]
+show_behind_parent = true
+width = 5.0
+width_curve = SubResource("Curve_8o2m7")
+default_color = Color(1, 0.109804, 0, 0.662745)
+
+[node name="Area2D_Body" type="Area2D" parent="." groups=["turret_projectile"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D_Body"]
+shape = SubResource("CircleShape2D_uhoqj")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

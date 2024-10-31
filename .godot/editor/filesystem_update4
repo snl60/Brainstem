@@ -1,0 +1,15 @@
+res://Scenes/level_1.tscn
+res://Themes/menu_theme.tres
+res://Dialogue/speaker_textbox_style.tres
+res://Dialogue/system_style.tres
+res://Scenes/main_menu.tscn
+res://Scenes/level_2.tscn
+res://Scenes/enemy.tscn
+res://Scenes/player.tscn
+res://Scenes/credits.tscn
+res://Scenes/boss_room_ember.tscn
+res://Scenes/boss_ember.tscn
+res://Scenes/level_transition.tscn
+res://Scenes/settings_menu.tscn
+res://Scenes/controls.tscn
+res://Scenes/pause_menu.tscn

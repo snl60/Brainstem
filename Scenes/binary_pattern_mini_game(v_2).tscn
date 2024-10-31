@@ -1,0 +1,136 @@
+[gd_scene load_steps=6 format=3 uid="uid://pkom6f45rddo"]
+
+[ext_resource type="Script" path="res://Scripts/binary_pattern_mini_game(v_2).gd" id="1_837ym"]
+[ext_resource type="Texture2D" uid="uid://bh16igflrmd30" path="res://MiniGames/BinaryPattern/ComputerTerminal.png" id="2_eewct"]
+[ext_resource type="Theme" uid="uid://c5fyiff7lhmls" path="res://Themes/SpinBoxTheme.tres" id="3_dv4pg"]
+
+[sub_resource type="Gradient" id="Gradient_jy1eb"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0.516062, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_iqnww"]
+gradient = SubResource("Gradient_jy1eb")
+width = 80
+
+[node name="BinaryPatternMiniGame(v2)" type="Node2D"]
+script = ExtResource("1_837ym")
+
+[node name="TextureRect_Background" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_eewct")
+
+[node name="Label_Instructions" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0.516062, 0, 1)
+text = "Input the correct binary code to complete the pattern."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label_Pattern" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0.516062, 0, 1)
+text = "0000 0000 0000 0000"
+
+[node name="Label_Answer" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0.516062, 0, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button_Submit" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Submit"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SpinBox1" type="SpinBox" parent="HBoxContainer"]
+layout_mode = 2
+focus_mode = 2
+max_value = 1.0
+alignment = 1
+
+[node name="TextureRect1" type="TextureRect" parent="HBoxContainer/SpinBox1"]
+visible = false
+modulate = Color(0.396889, 0.396889, 0.396889, 1)
+show_behind_parent = true
+layout_mode = 0
+offset_right = 80.0
+offset_bottom = 40.0
+texture = SubResource("GradientTexture1D_iqnww")
+
+[node name="SpinBox2" type="SpinBox" parent="HBoxContainer"]
+layout_mode = 2
+focus_mode = 2
+theme = ExtResource("3_dv4pg")
+max_value = 1.0
+alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="HBoxContainer/SpinBox2"]
+visible = false
+modulate = Color(0.396889, 0.396889, 0.396889, 1)
+show_behind_parent = true
+layout_mode = 0
+offset_right = 80.0
+offset_bottom = 40.0
+texture = SubResource("GradientTexture1D_iqnww")
+
+[node name="SpinBox3" type="SpinBox" parent="HBoxContainer"]
+layout_mode = 2
+focus_mode = 2
+theme = ExtResource("3_dv4pg")
+max_value = 1.0
+alignment = 1
+
+[node name="TextureRect3" type="TextureRect" parent="HBoxContainer/SpinBox3"]
+visible = false
+modulate = Color(0.396889, 0.396889, 0.396889, 1)
+show_behind_parent = true
+layout_mode = 0
+offset_right = 80.0
+offset_bottom = 40.0
+texture = SubResource("GradientTexture1D_iqnww")
+
+[node name="SpinBox4" type="SpinBox" parent="HBoxContainer"]
+layout_mode = 2
+focus_mode = 2
+theme = ExtResource("3_dv4pg")
+max_value = 1.0
+alignment = 1
+
+[node name="TextureRect4" type="TextureRect" parent="HBoxContainer/SpinBox4"]
+visible = false
+modulate = Color(0.396889, 0.396889, 0.396889, 1)
+show_behind_parent = true
+layout_mode = 0
+offset_right = 80.0
+offset_bottom = 40.0
+texture = SubResource("GradientTexture1D_iqnww")
+
+[node name="Timer_QueueFree" type="Timer" parent="."]
+wait_time = 2.0
+
+[connection signal="focus_entered" from="HBoxContainer/SpinBox1" to="." method="_on_spin_box_1_focus_entered"]
+[connection signal="focus_exited" from="HBoxContainer/SpinBox1" to="." method="_on_spin_box_1_focus_exited"]
+[connection signal="focus_entered" from="HBoxContainer/SpinBox2" to="." method="_on_spin_box_2_focus_entered"]
+[connection signal="focus_exited" from="HBoxContainer/SpinBox2" to="." method="_on_spin_box_2_focus_exited"]
+[connection signal="focus_entered" from="HBoxContainer/SpinBox3" to="." method="_on_spin_box_3_focus_entered"]
+[connection signal="focus_exited" from="HBoxContainer/SpinBox3" to="." method="_on_spin_box_3_focus_exited"]
+[connection signal="focus_entered" from="HBoxContainer/SpinBox4" to="." method="_on_spin_box_4_focus_entered"]
+[connection signal="focus_exited" from="HBoxContainer/SpinBox4" to="." method="_on_spin_box_4_focus_exited"]
+[connection signal="timeout" from="Timer_QueueFree" to="." method="_on_timer_queue_free_timeout"]
