@@ -1,0 +1,7 @@
+# Top-most EditorConfig file
+root = true
+
+# Set default for all files
+[*]
+indent_style = tab
+indent_size = 4
